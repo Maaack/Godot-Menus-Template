@@ -49,7 +49,7 @@ This package is available as a plugin, meaning it can be added to an existing pr
 When editing an existing project:
 
 1.  Go to the `AssetLib` tab.
-2.  Search for "Maaack's Game Template Plugin".
+2.  Search for "Maaack's Menus Template".
 3.  Click on the result to open the plugin details.
 4.  Click to Download.
 5.  Check that contents are getting installed to `addons/` and there are no conflicts.
