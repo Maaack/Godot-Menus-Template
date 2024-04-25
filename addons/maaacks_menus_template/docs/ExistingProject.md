@@ -18,8 +18,10 @@ For an existing project, developers can copy the contents of the `addons/` folde
 
     1.  Open `MainMenu.tscn`.
     2.  Select the `Title` node.
-    3.  Update the `Text` to `Game Name`.
-    4.  Save the scene.
+    3.  Update the `Text` to your project's title.
+    4.  Select the `Subtitle` node.
+    5.  Update the `Text` to a desired subtitle or empty.
+    6.  Save the scene.
     
 
 3.  Point the main menu to the game scene.
@@ -27,20 +29,11 @@ For an existing project, developers can copy the contents of the `addons/` folde
 
     1.  Open `MainMenu.tscn`.
     2.  Select the `MainMenu` node.
-    3.  Update `Game Scene Path` to the path of “Game Name” game scene.
+    3.  Update `Game Scene Path` to the path of the project's game scene.
     4.  Save the scene.
     
 
-4.  Update the project’s inputs.
-    
-
-    1.  Open `InputOptionsMenu.tscn` (or `MasterOptionsMenu`, which contains an instance of the scene).
-    2.  Select the `Controls` node.
-    3.  Update the `Action Name Map` to show readable names for “Game Name” input actions.
-    4.  Save the scene.
-
-
-5.  Add background music and sound effects to the UI.
+4.  Add background music and sound effects to the UI.
 
     1.  Add `Music` and `SFX` to the project's default audio busses.
 
@@ -56,10 +49,6 @@ For an existing project, developers can copy the contents of the `addons/` folde
         3.  Select the `BackgroundMusicPlayer` node.
         4.  Assign the music asset to the `stream` property.
         5.  Save the scene.
-        6.  Optionally, repeat steps 3-5 for background music nodes in:
-            1.  `Opening.tscn`
-            2.  `GameUI.tscn`
-            3.  `EndCredits.tscn`
 
 
     2.  Add sound effects to UI elements.
@@ -82,11 +71,22 @@ For an existing project, developers can copy the contents of the `addons/` folde
             4.  Save the scene.
    
 
+5.  Add readable names for input actions to the controls menu.
+    
+
+    1.  Open `InputOptionsMenu.tscn` (or `MasterOptionsMenu`, which contains an instance of the scene).
+    2.  Select the `Controls` node.
+    3.  Update the `Action Name Map` to show readable names for the project's input actions.  
+        1.  The keys are the project's input action names, while the values are the names shown in the controls menu.  
+        2.  An example is provided. It can be updated or removed, either in the inspector for the node, or in the code of `InputOptionsMenu.gd`.  
+    4.  Save the scene.  
+
+
 6.  Update the game credits / attribution.
     
 
     1.  Copy `res://addons/maaacks_menus_template/ATTRIBUTION_example.md` to your project's root directory as `res://ATTRIBUTION.md`.
-    2.  Update `res://ATTRIBUTION.md` with “Game Name” credits, following the example.
+    2.  Update `res://ATTRIBUTION.md` with the project's credits, following the example.
     3.  Open `Credits.tscn`.
     4.  Select the `Credits` node.
     5.  Update the `Attribution File Path` to `res://ATTRIBUTION.md`.
