@@ -31,15 +31,17 @@ The `base/` folder holds the core components of the menus application.
 -   Simple Config Interface
 -   Keyboard/Mouse Support
 -   Gamepad Support
--   Centralized UI Sound Control
+-   UI Sound Controller
+-   Background Music Controller
 
 ### How it Works
 - `AppConfig.tscn` is set as the first autoload. It loads all the configuration settings from the config file (if it exists).
 - `SceneLoader.tscn` is set as the second autoload.  It can load scenes in the background or with a loading screen (`LoadingScreen.tscn` by default).   
 - `MainMenu.tscn` is where a player can start the game, change settings, watch credits, or quit. It can link to the path of a game scene to play, and the packed scene of an options menu to use.  
 - `Credits.tscn` reads from `ATTRIBUTION.md` to automatically generate the content for it's scrolling text label.  
-- The `UISoundController` node automatically attaches sounds to buttons, tab bars, sliders, and line edits in the scene. `ProjectUISoundController.tscn` can used to apply UI sound effects project-wide.
-
+- The `UISoundController` node automatically attaches sounds to buttons, tab bars, sliders, and line edits in the scene. `ProjectUISoundController.tscn` is an autload used to apply UI sounds project-wide.
+- `ProjectMusicController.tscn` is an autoload that keeps music playing between scenes. It detects music stream players as they are added to the scene tree, reparents them to itself, and blends the tracks.  
+  
 ## Installation
 
 ### Godot Asset Library
