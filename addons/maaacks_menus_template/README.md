@@ -10,6 +10,7 @@ _Example is of [Maaack's Game Template](https://github.com/Maaack/Godot-Game-Tem
 ![Key Rebinding](/addons/maaacks_menus_template/media/Screenshot-3-2.png)  
 ![Audio Controls](/addons/maaacks_menus_template/media/Screenshot-3-4.png)  
 ![Credits Screen](/addons/maaacks_menus_template/media/Screenshot-3-5.png)  
+[All screenshots](/addons/maaacks_menus_template/docs/Screenshots.md)
 
 ## Use Case
 Setup menus and accessibility features in about 15 minutes.
