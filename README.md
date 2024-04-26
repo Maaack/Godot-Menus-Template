@@ -93,6 +93,6 @@ Set your project's main scene to `MainMenu.tscn` or any scene that inherits from
 
 
 ## Links
-[Attribution](ATTRIBUTION.md)  
-[License](LICENSE.txt)  
+[Attribution](/addons/maaacks_menus_template/ATTRIBUTION.md)  
+[License](/addons/maaacks_menus_template/LICENSE.txt)  
 
