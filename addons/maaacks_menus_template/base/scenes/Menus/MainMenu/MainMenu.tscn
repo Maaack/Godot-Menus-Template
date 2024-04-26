@@ -18,6 +18,9 @@ script = ExtResource("1")
 options_packed_scene = ExtResource("2_67m86")
 credits_packed_scene = ExtResource("3_5dhvp")
 
+[node name="UISoundController" type="Node" parent="."]
+script = ExtResource("6_bs342")
+
 [node name="BackgroundMusicPlayer" parent="." instance=ExtResource("4_w8sbm")]
 
 [node name="BackgroundTextureRect" type="TextureRect" parent="."]
@@ -165,9 +168,6 @@ offset_top = -40.0
 offset_right = 62.0
 grow_vertical = 0
 text = "Back"
-
-[node name="UISoundController" type="Node" parent="."]
-script = ExtResource("6_bs342")
 
 [connection signal="pressed" from="MenuContainer/VBoxContainer/MenuMargin/MenuButtons/PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="MenuContainer/VBoxContainer/MenuMargin/MenuButtons/OptionsButton" to="." method="_on_options_button_pressed"]

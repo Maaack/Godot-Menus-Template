@@ -24,7 +24,7 @@ For an existing project, developers can copy the contents of the `addons/` folde
     6.  Save the scene.
     
 
-3.  Point the main menu to the game scene.
+3.  Link the main menu to the game scene.
     
 
     1.  Open `MainMenu.tscn`.
@@ -90,6 +90,6 @@ For an existing project, developers can copy the contents of the `addons/` folde
     3.  Open `Credits.tscn`.
     4.  Select the `Credits` node.
     5.  Update the `Attribution File Path` to `res://ATTRIBUTION.md`.
-    6.  Reload `Credits.tscn` scene to apply changes from `res://ATTRIBUTION.md`.
+    6.  Reload the `Credits.tscn` scene to update the contents.
     7.  Save the scene.
    
