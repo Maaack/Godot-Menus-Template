@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://d05r2cetbkwhv"]
+
+[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/scenes/Credits/Credits.tscn" id="1_nj3lr"]
+[ext_resource type="Script" path="res://scenes/Credits/Credits.gd" id="2_c6gh8"]
+
+[node name="Credits" instance=ExtResource("1_nj3lr")]
+script = ExtResource("2_c6gh8")

@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Menus Template"
-run/main_scene="res://addons/maaacks_menus_template/examples/scenes/Menus/MainMenu/MainMenuWithAnimations.tscn"
+run/main_scene="res://scenes/Menus/MainMenu/MainMenuWithAnimations.tscn"
 config/features=PackedStringArray("4.2")
 config/icon="res://icon.png"
 
