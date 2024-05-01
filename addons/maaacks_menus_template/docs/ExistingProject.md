@@ -4,12 +4,12 @@ For an existing project, developers can copy the contents of the `addons/` folde
 
   
 
-1.  Update the project’s main scene.
+1.  Update the project’s main scene (if skipped during plugin install).
     
 
     1.  Go to `Project > Project Settings… > General > Application > Run`.
     2.  Update `Main Scene` to `MainMenu.tscn`.
-        1.  Alternatively, any scene the inherits from it.
+        1.  Alternatively, any scene the inherits from it. One exists in the `examples/` folder.
     3.  Close the window.
     
 
