@@ -1,9 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://c5hcgy0752vdv"]
 
-[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/scenes/Menus/OptionsMenu/Input/InputOptionsMenu.tscn" id="1_ive7q"]
+[ext_resource type="PackedScene" uid="uid://dp3rgqaehb3xu" path="res://addons/maaacks_menus_template/base/scenes/Menus/OptionsMenu/Input/InputOptionsMenu.tscn" id="1_ive7q"]
 [ext_resource type="Script" path="res://scenes/Menus/OptionsMenu/Input/InputOptionsMenu.gd" id="2_8g2re"]
 
 [node name="Controls" instance=ExtResource("1_ive7q")]
 script = ExtResource("2_8g2re")
-add_button_texture = null
-remove_button_texture = null
