@@ -6,7 +6,7 @@
 [node name="LoadingScreen" instance=ExtResource("1_4k0mc")]
 script = ExtResource("2_3xu6h")
 _spatial_shader_material_dir = ""
-_cache_shaders_scene = "res://addons/maaacks_menus_template/examples/scenes/GameScene/GameUI.tscn"
+_cache_shaders_scene = ""
 _matching_extensions = Array[String]([".tres", ".material", ".res"])
 _ignore_subfolders = Array[String]([".", ".."])
 _shader_delay_timer = 0.1
