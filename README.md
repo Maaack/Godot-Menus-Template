@@ -58,7 +58,10 @@ When editing an existing project:
 5.  Check that contents are getting installed to `addons/` and there are no conflicts.
 6.  Click to Install.
 7.  Reload the project (you may see errors before you do this).
-8.  Enable the plugin from the Project Settings > Plugins tab.
+8.  Enable the plugin from the Project Settings > Plugins tab.  
+    If it's enabled for the first time,
+    1.  A dialogue window will appear asking to copy the example scenes out of `addons/`.
+    2.  Another dialogue window will ask to update the project's main scene.
 9.  Continue with the [Existing Project Instructions](/addons/maaacks_menus_template/docs/ExistingProject.md)  
 
 
@@ -78,13 +81,9 @@ Users that want additional features can try [Maaack's Game Template](https://git
 
 ## Usage
 
-It is recommended developers copy the contents of the `addons/maaacks_menus_template/base/scenes/` into their project root directory before making changes. This avoids changes getting lost either from the package updating, or because of a .gitignore.
+Changes can be made directly to scenes and scripts outside of `addons/`. 
 
-Alternatively, developers can inherit scenes from the `addons/` and save those to their project root directory.
-
-### Main Scene
-
-Set your project's main scene to `MainMenu.tscn` or any scene that inherits from it.
+A copy of the `examples/` directory is made outside of `addons/` when the plugin is enabled for the first time. However, if this is skipped, it is recommended developers inherit from scenes they want to use, and save the inherited scene outside of `addons/`. This avoids changes getting lost either from the package updating, or because of a `.gitignore`.
 
 ### Existing Project
 
