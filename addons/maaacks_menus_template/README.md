@@ -73,6 +73,9 @@ When editing an existing project:
 3.  Move the `addons/maaacks_menus_template` folder into your project's `addons/` folder.  
 4.  Open/Reload the project.  
 5.  Enable the plugin from the Project Settings > Plugins tab.  
+    If it's enabled for the first time,
+    1.  A dialogue window will appear asking to copy the example scenes out of `addons/`.
+    2.  Another dialogue window will ask to update the project's main scene.
 6.  Continue with the [Existing Project Instructions](/addons/maaacks_menus_template/docs/ExistingProject.md) 
 
 #### Extras
