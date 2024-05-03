@@ -1,19 +1,19 @@
-[gd_scene load_steps=5 format=3 uid="uid://djfdqvcbqxud0"]
+[gd_scene load_steps=5 format=3 uid="uid://u61eud52735q"]
 
-[ext_resource type="PackedScene" path="res://scenes/Menus/OptionsMenu/MasterOptionsMenu.tscn" id="1_d80gq"]
-[ext_resource type="PackedScene" path="res://scenes/Menus/OptionsMenu/Input/InputOptionsMenu.tscn" id="2_a173q"]
-[ext_resource type="PackedScene" path="res://scenes/Menus/OptionsMenu/Audio/AudioOptionsMenu.tscn" id="3_cffnk"]
-[ext_resource type="PackedScene" path="res://scenes/Menus/OptionsMenu/Video/VideoOptionsMenu.tscn" id="4_3xr16"]
+[ext_resource type="PackedScene" uid="uid://dtdsiaqbjsu0x" path="res://scenes/Menus/OptionsMenu/MasterOptionsMenu.tscn" id="1_tkyyw"]
+[ext_resource type="PackedScene" uid="uid://5km0rimyy6i5" path="res://scenes/Menus/OptionsMenu/Input/InputOptionsMenu.tscn" id="2_ctxb8"]
+[ext_resource type="PackedScene" uid="uid://dkmjytvo710wc" path="res://scenes/Menus/OptionsMenu/Audio/AudioOptionsMenu.tscn" id="3_lknba"]
+[ext_resource type="PackedScene" uid="uid://b2q1fosmepmbf" path="res://scenes/Menus/OptionsMenu/Video/VideoOptionsMenu.tscn" id="4_q1dle"]
 
-[node name="MasterOptionsMenu" instance=ExtResource("1_d80gq")]
+[node name="MasterOptionsMenu" instance=ExtResource("1_tkyyw")]
 
-[node name="Controls" parent="TabContainer" index="1" instance=ExtResource("2_a173q")]
+[node name="Controls" parent="TabContainer" index="1" instance=ExtResource("2_ctxb8")]
 layout_mode = 2
 
-[node name="Audio" parent="TabContainer" index="2" instance=ExtResource("3_cffnk")]
+[node name="Audio" parent="TabContainer" index="2" instance=ExtResource("3_lknba")]
 visible = false
 layout_mode = 2
 
-[node name="Video" parent="TabContainer" index="3" instance=ExtResource("4_3xr16")]
+[node name="Video" parent="TabContainer" index="3" instance=ExtResource("4_q1dle")]
 visible = false
 layout_mode = 2
