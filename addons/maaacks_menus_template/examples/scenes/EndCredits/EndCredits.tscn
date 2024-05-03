@@ -8,7 +8,6 @@
 [node name="EndCredits" instance=ExtResource("1_885d8")]
 script = ExtResource("2_6pwj4")
 main_menu_scene = "res://addons/maaacks_menus_template/examples/scenes/Menus/MainMenu/MainMenuWithAnimations.tscn"
-scroll_active = true
 
 [node name="BackgroundMusicPlayer" parent="." index="0" instance=ExtResource("3_v7acr")]
 
