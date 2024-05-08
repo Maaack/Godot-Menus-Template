@@ -35,12 +35,13 @@ The `base/` folder holds the core components of the menus application.
 -   Background Music Controller
 
 ### How it Works
-- `AppConfig.tscn` is set as the first autoload. It loads all the configuration settings from the config file (if it exists).
+- `AppConfig.tscn` is set as the first autoload. It calls `AppSettings.gd` to load all the configuration settings from the config file (if it exists) through `Config.gd`.
 - `SceneLoader.tscn` is set as the second autoload.  It can load scenes in the background or with a loading screen (`LoadingScreen.tscn` by default).   
 - `MainMenu.tscn` is where a player can start the game, change settings, watch credits, or quit. It can link to the path of a game scene to play, and the packed scene of an options menu to use.  
 - `Credits.tscn` reads from `ATTRIBUTION.md` to automatically generate the content for it's scrolling text label.  
 - The `UISoundController` node automatically attaches sounds to buttons, tab bars, sliders, and line edits in the scene. `ProjectUISoundController.tscn` is an autload used to apply UI sounds project-wide.
 - `ProjectMusicController.tscn` is an autoload that keeps music playing between scenes. It detects music stream players as they are added to the scene tree, reparents them to itself, and blends the tracks.  
+- `OptionControl.tscn` and its inherited scenes are used for most configurable options in the menus. They work with `Config.gd` to keep settings persistent between runs.
   
 ## Installation
 
@@ -97,4 +98,4 @@ A copy of the `examples/` directory is made outside of `addons/` when the plugin
 ## Links
 [Attribution](/addons/maaacks_menus_template/ATTRIBUTION.md)  
 [License](/addons/maaacks_menus_template/LICENSE.txt)  
-
+[Godot Asset Library - Plugin](https://godotengine.org/asset-library/asset/2899) 
