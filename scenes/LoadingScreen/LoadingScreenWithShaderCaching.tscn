@@ -1,10 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://cmgws0fmrgj81"]
+[gd_scene load_steps=3 format=3 uid="uid://u2l16iuhgb"]
 
-[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/scenes/LoadingScreen/LoadingScreen.tscn" id="1_1pbg6"]
-[ext_resource type="Script" path="res://scenes/LoadingScreen/LoadingScreenWithShaderCaching.gd" id="2_xlfw7"]
+[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/scenes/LoadingScreen/LoadingScreen.tscn" id="1_drofl"]
+[ext_resource type="Script" path="res://scenes/LoadingScreen/LoadingScreenWithShaderCaching.gd" id="2_adiug"]
 
-[node name="LoadingScreen" instance=ExtResource("1_1pbg6")]
-script = ExtResource("2_xlfw7")
+[node name="LoadingScreen" instance=ExtResource("1_drofl")]
+script = ExtResource("2_adiug")
 _spatial_shader_material_dir = ""
 _cache_shaders_scene = ""
 _matching_extensions = Array[String]([".tres", ".material", ".res"])

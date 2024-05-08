@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://5km0rimyy6i5"]
+[gd_scene load_steps=3 format=3 uid="uid://cph8kqvknbgwf"]
 
-[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/scenes/Menus/OptionsMenu/Input/InputOptionsMenu.tscn" id="1_gchdl"]
-[ext_resource type="Script" path="res://scenes/Menus/OptionsMenu/Input/InputOptionsMenu.gd" id="2_ru401"]
+[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/scenes/Menus/OptionsMenu/Input/InputOptionsMenu.tscn" id="1_g70qe"]
+[ext_resource type="Script" path="res://scenes/Menus/OptionsMenu/Input/InputOptionsMenu.gd" id="2_umt4v"]
 
-[node name="Controls" instance=ExtResource("1_gchdl")]
-script = ExtResource("2_ru401")
+[node name="Controls" instance=ExtResource("1_g70qe")]
+script = ExtResource("2_umt4v")
