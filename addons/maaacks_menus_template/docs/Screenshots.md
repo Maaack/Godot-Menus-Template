@@ -2,8 +2,10 @@
 
 ![Main Menu](/addons/maaacks_menus_template/media/Screenshot-3-1.png)  
 ![Input Controls](/addons/maaacks_menus_template/media/Screenshot-3-2.png)  
-![Key Rebinding](/addons/maaacks_menus_template/media/Screenshot-3-3.png)  
+![Key Rebinding](/addons/maaacks_menus_template/media/Screenshot-4-1.png)  
+![Key Confirmation](/addons/maaacks_menus_template/media/Screenshot-4-2.png)
 ![Audio Controls](/addons/maaacks_menus_template/media/Screenshot-3-4.png)  
+![Video Controls](/addons/maaacks_menus_template/media/Screenshot-4-3.png)  
 ![Credits Screen](/addons/maaacks_menus_template/media/Screenshot-3-5.png)  
 ![Loading Screen 50% Loaded](/addons/maaacks_menus_template/media/Screenshot-3-7.png)  
 ![Loading Screen Still Loading](/addons/maaacks_menus_template/media/Screenshot-3-8.png)  
