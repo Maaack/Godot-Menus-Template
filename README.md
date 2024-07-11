@@ -51,7 +51,6 @@ The `base/` folder holds the core components of the menus application.
 - `Credits.tscn` reads from `ATTRIBUTION.md` to automatically generate the content for it's scrolling text label.  
 - The `UISoundController` node automatically attaches sounds to buttons, tab bars, sliders, and line edits in the scene. `ProjectUISoundController.tscn` is an autload used to apply UI sounds project-wide.
 - `ProjectMusicController.tscn` is an autoload that keeps music playing between scenes. It detects music stream players as they are added to the scene tree, reparents them to itself, and blends the tracks.  
-- `OptionControl.tscn` and its inherited scenes are used for most configurable options in the menus. They work with `Config.gd` to keep settings persistent between runs.
   
 ## Installation
 
