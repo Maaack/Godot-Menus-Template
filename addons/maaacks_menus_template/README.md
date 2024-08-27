@@ -1,5 +1,5 @@
 # Godot Menus Template
-For Godot 4.2
+For Godot 4.2+
 
 This template has a main menu, options menus, credits, and a scene loader.
 
@@ -14,11 +14,10 @@ _Example is of [Maaack's Game Template](https://github.com/Maaack/Godot-Game-Tem
 [All videos](/addons/maaacks_menus_template/docs/Videos.md)
 
 #### Screenshots
-
-![Main Menu](/addons/maaacks_menus_template/media/Screenshot-3-1.png)  
-![Key Rebinding](/addons/maaacks_menus_template/media/Screenshot-3-2.png)  
-![Audio Controls](/addons/maaacks_menus_template/media/Screenshot-3-4.png)  
-![Credits Screen](/addons/maaacks_menus_template/media/Screenshot-3-5.png)  
+![Main Menu](/addons/maaacks_menus_template/media/screenshot-3-1.png)  
+![Key Rebinding](/addons/maaacks_menus_template/media/screenshot-3-2.png)  
+![Audio Controls](/addons/maaacks_menus_template/media/screenshot-3-4.png)  
+![Pause Menu](/addons/maaacks_menus_template/media/screenshot-3-6.png)  
 [All screenshots](/addons/maaacks_menus_template/docs/Screenshots.md)
 
 ## Use Case
@@ -43,21 +42,31 @@ The `base/` folder holds the core components of the menus application.
 -   UI Sound Controller
 -   Background Music Controller
 
+### Examples 
+
+The `examples/` folder contains an example project using inherited scenes from the `base/` and `extras/`.
+
+-   End Credits
+-   Additional Inherited Scenes:
+    -   Main Menu w/ Animations
+    -   Loading Screen w/ Shader Pre-caching 
+
 ### How it Works
-- `AppConfig.tscn` is set as the first autoload. It calls `AppSettings.gd` to load all the configuration settings from the config file (if it exists) through `Config.gd`.
-- `SceneLoader.tscn` is set as the second autoload.  It can load scenes in the background or with a loading screen (`LoadingScreen.tscn` by default).   
-- `MainMenu.tscn` is where a player can start the game, change settings, watch credits, or quit. It can link to the path of a game scene to play, and the packed scene of an options menu to use.  
-- `OptionControl.tscn` and its inherited scenes are used for most configurable options in the menus. They work with `Config.gd` to keep settings persistent between runs.
-- `Credits.tscn` reads from `ATTRIBUTION.md` to automatically generate the content for it's scrolling text label.  
-- The `UISoundController` node automatically attaches sounds to buttons, tab bars, sliders, and line edits in the scene. `ProjectUISoundController.tscn` is an autload used to apply UI sounds project-wide.
-- `ProjectMusicController.tscn` is an autoload that keeps music playing between scenes. It detects music stream players as they are added to the scene tree, reparents them to itself, and blends the tracks.  
+- `app_config.tscn` is set as the first autoload. It calls `app_settings.gd` to load all the configuration settings from the config file (if it exists) through `config.gd`.
+- `scene_loader.tscn` is set as the second autoload.  It can load scenes in the background or with a loading screen (`loading_screen.tscn` by default).   
+- `opening.tscn` is a simple scene for fading in/out a few images at the start of the game. It then loads the next scene (`main_menu.tscn`).  
+- `main_menu.tscn` is where a player can start the game, change settings, watch credits, or quit. It can link to the path of a game scene to play, and the packed scene of an options menu to use.  
+- `option_control.tscn` and its inherited scenes are used for most configurable options in the menus. They work with `config.gd` to keep settings persistent between runs.
+- `credits.tscn` reads from `ATTRIBUTION.md` to automatically generate the content for it's scrolling text label.  
+- The `UISoundController` node automatically attaches sounds to buttons, tab bars, sliders, and line edits in the scene. `project_ui_sound_controller.tscn` is an autload used to apply UI sounds project-wide.
+- `project_music_controller.tscn` is an autoload that keeps music playing between scenes. It detects music stream players as they are added to the scene tree, reparents them to itself, and blends the tracks.  
   
 ## Installation
 
 ### Godot Asset Library
 This package is available as a plugin, meaning it can be added to an existing project. 
 
-![Package Icon](/addons/maaacks_menus_template/media/Menus-Icon-black-transparent-256x256.png)  
+![Package Icon](/addons/maaacks_menus_template/media/menus-icon-black-transparent-256x256.png)  
 
 When editing an existing project:
 
