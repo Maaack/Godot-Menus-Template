@@ -5,7 +5,7 @@ const PLUGIN_NAME = "Maaack's Menus Template"
 const PROJECT_SETTINGS_PATH = "maaacks_menus_template/"
 
 const EXAMPLES_RELATIVE_PATH = "examples/"
-const MAIN_SCENE_RELATIVE_PATH = "scenes/menus/main_menu/main_menu_with_animations.tscn"
+const MAIN_SCENE_RELATIVE_PATH = "scenes/opening/opening_with_logo.tscn"
 const MAIN_SCENE_UPDATE_TEXT = "Current:\n%s\n\nNew:\n%s\n"
 const OVERRIDE_RELATIVE_PATH = "installer/override.cfg"
 const SCENE_LOADER_RELATIVE_PATH = "base/scenes/autoloads/scene_loader.tscn"
@@ -306,8 +306,8 @@ func _enter_tree():
 	add_autoload_singleton("ProjectMusicController", get_plugin_path() + "base/scenes/autoloads/project_music_controller.tscn")
 	add_autoload_singleton("ProjectUISoundController", get_plugin_path() + "base/scenes/autoloads/project_ui_sound_controller.tscn")
 	_add_copy_tool_if_examples_exists()
-	_show_plugin_dialogues()
 	_add_translations()
+	_show_plugin_dialogues()
 	_resave_if_recently_opened()
 
 func _exit_tree():
