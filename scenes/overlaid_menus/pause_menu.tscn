@@ -8,3 +8,4 @@
 script = ExtResource("2_femhd")
 options_packed_scene = ExtResource("3_jgd4c")
 main_menu_scene = "res://scenes/menus/main_menu/main_menu_with_animations.tscn"
+pauses_game = true
