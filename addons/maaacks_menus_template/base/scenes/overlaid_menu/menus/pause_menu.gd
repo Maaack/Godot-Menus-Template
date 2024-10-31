@@ -73,9 +73,7 @@ func _on_confirm_restart_confirmed():
 	close()
 
 func _on_confirm_main_menu_confirmed():
-	_scene_tree.paused = false
-	SceneLoader.load_scene(main_menu_scene)
-	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+	_load_scene(main_menu_scene)
 
 func _on_confirm_exit_confirmed():
 	get_tree().quit()
