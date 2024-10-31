@@ -33,10 +33,13 @@ The `base/` folder holds the core components of the menus application.
 
 -   Main Menu    
 -   Options Menus
+-   Pause Menu
 -   Credits
 -   Loading Screen
+-   Opening Scene
 -   Persistent Settings
 -   Simple Config Interface
+-   Extensible Overlay Menus
 -   Keyboard/Mouse Support
 -   Gamepad Support
 -   UI Sound Controller
@@ -49,6 +52,7 @@ The `examples/` folder contains an example project using inherited scenes from t
 -   End Credits
 -   Additional Inherited Scenes:
     -   Main Menu w/ Animations
+    -   Opening w/ Godot Logo
     -   Loading Screen w/ Shader Pre-caching 
 
 ### How it Works
@@ -97,9 +101,9 @@ When editing an existing project:
     2.  Another dialogue window will ask to update the project's main scene.
 6.  Continue with the [Existing Project Instructions](/addons/maaacks_menus_template/docs/ExistingProject.md) 
 
-#### Extras
+#### Extras or Components
 
-Users that want additional features can try [Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template).  
+Users that want additional features can try [Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template) or other options from the [plugin suite](/addons/maaacks_menus_template/docs/PluginSuite.md).  
 
 ## Usage
 
