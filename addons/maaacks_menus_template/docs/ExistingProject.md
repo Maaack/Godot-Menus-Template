@@ -7,7 +7,7 @@ These instructions assume starting with just the contents of `addons/`. This wil
     
 
     1.  Go to `Project > Project Settings… > General > Application > Run`.
-    2.  Update `Main Scene` to `main_menu_with_animations.tscn`. (This is the default scene used, but other options are available.)
+    2.  Update `Main Scene` to `opening_with_logo.tscn`, or skip openings and go straight to `main_menu_with_animations.tscn`. (These are the default scenes used, but other options are available.)
     3.  Close the window.
     
 
@@ -47,6 +47,8 @@ These instructions assume starting with just the contents of `addons/`. This wil
         3.  Select the `BackgroundMusicPlayer` node.
         4.  Assign the music asset to the `stream` property.
         5.  Save the scene.
+        6.  Optionally, repeat steps 3-5 for background music nodes in:
+            1.  `opening_with_logo.tscn`
 
 
     3.  Add sound effects to UI elements.
@@ -74,9 +76,7 @@ These instructions assume starting with just the contents of `addons/`. This wil
 
     1.  Open `input_options_menu.tscn` (or `master_options_menu_with_tabs.tscn`, which contains an instance of the scene).
     2.  Select the `Controls` node.
-    3.  Update the `Action Name Map` to show readable names for the project's input actions.  
-        1.  The keys are the project's input action names, while the values are the names shown in the controls menu.  
-        2.  An example is provided. It can be updated or removed, either in the inspector for the node, or in the code of `input_options_menu.gd`.  
+    3.  Update the `Input Action Names` and corresponding `Readable Action Names` to show user-friendly names for the project's input actions.  
     4.  Save the scene.  
 
 
