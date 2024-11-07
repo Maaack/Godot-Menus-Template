@@ -12,7 +12,6 @@ current_tab = 0
 
 [node name="Controls" parent="TabContainer" index="1" instance=ExtResource("2_vcd68")]
 layout_mode = 2
-show_all_actions = true
 metadata/_tab_index = 0
 
 [node name="Audio" parent="TabContainer" index="2" instance=ExtResource("3_oh6s1")]
