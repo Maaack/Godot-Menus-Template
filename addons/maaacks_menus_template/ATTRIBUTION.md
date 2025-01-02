@@ -6,6 +6,12 @@ Author: [Marek Belski](https://github.com/Maaack/Godot-Menus-Template/graphs/con
 Source: [github: Godot-Menus-Template](https://github.com/Maaack/Godot-Menus-Template)  
 License: [MIT License](LICENSE.txt)  
 
+## Sourced  
+#### Godot Engine Logo
+Author: Andrea Calabró  
+Source: [godotengine.org : press](https://godotengine.org/press/)  
+License: [CC BY 4.0 International](https://github.com/godotengine/godot/blob/master/LOGO_LICENSE.txt) 
+
 ## Tools
 #### Godot
 Author: [Juan Linietsky, Ariel Manzur, and contributors](https://godotengine.org/contact)  
