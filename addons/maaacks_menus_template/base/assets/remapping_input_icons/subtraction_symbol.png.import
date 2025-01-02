@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5rltpvy6c5b"
-path="res://.godot/imported/logo_vertical_color_dark.png-2c2bd0c7dfc83e8e9ce30c32990dcf3a.ctex"
+uid="uid://bteq3ica74h30"
+path="res://.godot/imported/subtraction_symbol.png-ce800600281c4f951ef82cbba15dc400.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/maaacks_menus_template/examples/assets/images/logo_vertical_color_dark.png"
-dest_files=["res://.godot/imported/logo_vertical_color_dark.png-2c2bd0c7dfc83e8e9ce30c32990dcf3a.ctex"]
+source_file="res://addons/maaacks_menus_template/base/assets/remapping_input_icons/subtraction_symbol.png"
+dest_files=["res://.godot/imported/subtraction_symbol.png-ce800600281c4f951ef82cbba15dc400.ctex"]
 
 [params]
 
