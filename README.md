@@ -102,8 +102,6 @@ When editing an existing project:
 
 ### Existing Project
 
-These instructions assume starting with just the contents of `addons/`. This will be the case when installing the *plugin* version in the Godot Asset Library.
-
 [Existing Project Instructions](/addons/maaacks_menus_template/docs/ExistingProject.md)  
    
 ### More Documentation
