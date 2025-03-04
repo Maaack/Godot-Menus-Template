@@ -7,7 +7,7 @@ If you have a game you'd like to share, join the [Discord server](https://discor
 
 | Rent Seek Kill  | A Darkness Like Gravity  | Nanny Bot Overload |
 | :-------: | :----------: | :----------: |
-![Rent-Seek-Kill](/addons/maaacks_game_template/media/screenshot-game-rent-seek-kill.png)  |  ![A Darkness Like Gravity](/addons/maaacks_game_template/media/screenshot-game-a-darkness-like-gravity.png)  |  ![NannyBot Overload](/addons/maaacks_game_template/media/screenshot-game-nannybot-overload.png)  
+![Rent-Seek-Kill](/addons/maaacks_menus_template/media/screenshot-game-rent-seek-kill.png)  |  ![A Darkness Like Gravity](/addons/maaacks_menus_template/media/screenshot-game-a-darkness-like-gravity.png)  |  ![NannyBot Overload](/addons/maaacks_menus_template/media/screenshot-game-nannybot-overload.png)  
 [Play on itch.io](https://xandruher.itch.io/rent-seek-kill)  |  [Play on itch.io](https://maaack.itch.io/a-darkness-like-gravity)  |  [Play on itch.io](https://justaguyjustaguy.itch.io/nannybot-overload)
 
 

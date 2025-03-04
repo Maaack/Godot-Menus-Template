@@ -1,29 +1,30 @@
 # Godot Menus Template
-For Godot 4.2+
+For Godot 4.4 (4.2+ compatible)
 
 This template has a main menu, options menus, credits, and a scene loader.
 
 [Example on itch.io](https://maaack.itch.io/godot-game-template)  
 _Example is of [Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template), which includes additional features._
 
+[Featured Games](#featured-games)  
 
 #### Videos
 
 [![Quick Intro Video](https://img.youtube.com/vi/U9CB3vKINVw/hqdefault.jpg)](https://youtu.be/U9CB3vKINVw)  
 [![Installation Video](https://img.youtube.com/vi/-QWJnZ8bVdk/hqdefault.jpg)](https://youtu.be/-QWJnZ8bVdk)  
-[All videos](/addons/maaacks_menus_template/docs/Videos.md)
+[More Videos](/addons/maaacks_menus_template/docs/Videos.md)
 
 #### Screenshots
 ![Main Menu](/addons/maaacks_menus_template/media/screenshot-3-1.png)  
 ![Key Rebinding](/addons/maaacks_menus_template/media/screenshot-3-2.png)  
 ![Audio Controls](/addons/maaacks_menus_template/media/screenshot-3-4.png)  
 ![Pause Menu](/addons/maaacks_menus_template/media/screenshot-3-6.png)  
-[All screenshots](/addons/maaacks_menus_template/docs/Screenshots.md)
+[More Screenshots](/addons/maaacks_menus_template/docs/Screenshots.md)  
 
 ## Use Case
 Setup menus and accessibility features in about 15 minutes.
 
-The core components can support a larger project, but the template was originally built to support smaller projects and game jams.
+The template can be the start of a new project, or plug into an existing one. It is game agnostic (2D or 3D) and can work with multiple target resolutions, up to 4k and down to 640x360.
 
 ## Features
 
@@ -55,18 +56,10 @@ The `examples/` folder contains an example project using inherited scenes from t
     -   Opening w/ Godot Logo
     -   Loading Screen w/ Shader Pre-caching 
 
-### How it Works
-- `app_config.tscn` is set as the first autoload. It calls `app_settings.gd` to load all the configuration settings from the config file (if it exists) through `config.gd`.
-- `scene_loader.tscn` is set as the second autoload.  It can load scenes in the background or with a loading screen (`loading_screen.tscn` by default).   
-- `opening.tscn` is a simple scene for fading in/out a few images at the start of the game. It then loads the next scene (`main_menu.tscn`).  
-- `main_menu.tscn` is where a player can start the game, change settings, watch credits, or quit. It can link to the path of a game scene to play, and the packed scene of an options menu to use.  
-- `option_control.tscn` and its inherited scenes are used for most configurable options in the menus. They work with `config.gd` to keep settings persistent between runs.
-- `credits.tscn` reads from `ATTRIBUTION.md` to automatically generate the content for it's scrolling text label.  
-- The `UISoundController` node automatically attaches sounds to buttons, tab bars, sliders, and line edits in the scene. `project_ui_sound_controller.tscn` is an autload used to apply UI sounds project-wide.
-- `project_music_controller.tscn` is an autoload that keeps music playing between scenes. It detects music stream players as they are added to the scene tree, reparents them to itself, and blends the tracks.  
-- The `PauseMenuController` node loads the `pause_menu.tscn` when triggering `ui-cancel`.
-- `pause_menu.tscn` is a type of `OverlaidMenu` with the `pauses_game` flag set to true. It will store the previously focused UI element, and return focus to it when closed.
-- `capture_focus.gd` is attached to container nodes throughout the UI. It focuses onto UI elements when they are shown, allowing for easier navigation without a mouse.
+### Extras or Components
+
+Users that want additional features can try [Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template) or other options from the [plugin suite](/addons/maaacks_menus_template/docs/PluginSuite.md).  
+
 
 ## Installation
 
@@ -104,23 +97,32 @@ When editing an existing project:
     2.  Another dialogue window will ask to update the project's main scene.
 6.  Continue with the [Existing Project Instructions](/addons/maaacks_menus_template/docs/ExistingProject.md) 
 
-#### Extras or Components
-
-Users that want additional features can try [Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template) or other options from the [plugin suite](/addons/maaacks_menus_template/docs/PluginSuite.md).  
 
 ## Usage
 
-Changes can be made directly to scenes and scripts outside of `addons/`. 
-
-A copy of the `examples/` directory is made outside of `addons/` when the plugin is enabled for the first time. However, if this is skipped, it is recommended developers inherit from scenes they want to use, and save the inherited scene outside of `addons/`. This avoids changes getting lost either from the package updating, or because of a `.gitignore`.
-
 ### Existing Project
+
+These instructions assume starting with just the contents of `addons/`. This will be the case when installing the *plugin* version in the Godot Asset Library.
 
 [Existing Project Instructions](/addons/maaacks_menus_template/docs/ExistingProject.md)  
    
 ### More Documentation
 
 [Main Menu Setup](/addons/maaacks_menus_template/docs/MainMenuSetup.md)  
+[Input Icon Mapping](/addons/maaacks_menus_template/docs/InputIconMapping.md)  
+[How Parts Work](/addons/maaacks_menus_template/docs/HowPartsWork.md)  
+
+---
+
+## Featured Games
+
+| Rent Seek Kill  | A Darkness Like Gravity  | Nanny Bot Overload |
+| :-------: | :----------: | :----------: |
+![Rent-Seek-Kill](/addons/maaacks_menus_template/media/screenshot-game-rent-seek-kill.png)  |  ![A Darkness Like Gravity](/addons/maaacks_menus_template/media/screenshot-game-a-darkness-like-gravity.png)  |  ![NannyBot Overload](/addons/maaacks_menus_template/media/screenshot-game-nannybot-overload.png)  
+[Play on itch.io](https://xandruher.itch.io/rent-seek-kill)  |  [Play on itch.io](https://maaack.itch.io/a-darkness-like-gravity)  |  [Play on itch.io](https://justaguyjustaguy.itch.io/nannybot-overload)
+
+[All Shared Games](/addons/maaacks_menus_template/docs/GamesMade.md)  
+
 
 ## Community
 
