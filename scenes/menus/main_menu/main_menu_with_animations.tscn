@@ -1,9 +1,9 @@
 [gd_scene load_steps=18 format=3 uid="uid://de0u7u08kem88"]
 
-[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/scenes/menus/main_menu/main_menu.tscn" id="1_d7kgt"]
-[ext_resource type="Script" path="res://scenes/menus/main_menu/main_menu_with_animations.gd" id="2_evpcu"]
-[ext_resource type="PackedScene" path="res://scenes/menus/options_menu/master_options_menu_with_tabs.tscn" id="3_a7ljl"]
-[ext_resource type="PackedScene" path="res://scenes/credits/credits.tscn" id="4_38kfe"]
+[ext_resource type="PackedScene" uid="uid://c6k5nnpbypshi" path="res://addons/maaacks_menus_template/base/scenes/menus/main_menu/main_menu.tscn" id="1_d7kgt"]
+[ext_resource type="Script" uid="uid://llcxhuf1bawe" path="res://scenes/menus/main_menu/main_menu_with_animations.gd" id="2_evpcu"]
+[ext_resource type="PackedScene" uid="uid://c16ros4qllyb2" path="res://scenes/menus/options_menu/master_options_menu_with_tabs.tscn" id="3_a7ljl"]
+[ext_resource type="PackedScene" uid="uid://bavspileps48c" path="res://scenes/credits/credits.tscn" id="4_38kfe"]
 
 [sub_resource type="Animation" id="1"]
 resource_name = "Intro"
@@ -312,10 +312,10 @@ tracks/7/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_2kqig"]
 _data = {
-"Intro": SubResource("1"),
-"OpenMainMenu": SubResource("6"),
-"OpenSubMenu": SubResource("4"),
-"RESET": SubResource("2")
+&"Intro": SubResource("1"),
+&"OpenMainMenu": SubResource("6"),
+&"OpenSubMenu": SubResource("4"),
+&"RESET": SubResource("2")
 }
 
 [sub_resource type="AnimationNodeAnimation" id="7"]
