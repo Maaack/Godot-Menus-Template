@@ -108,6 +108,7 @@ When editing an existing project:
 
 [Main Menu Setup](/addons/maaacks_menus_template/docs/MainMenuSetup.md)  
 [Input Icon Mapping](/addons/maaacks_menus_template/docs/InputIconMapping.md)  
+[Joypad Inputs](/addons/maaacks_menus_template/docs/JoypadInputs.md)  
 [How Parts Work](/addons/maaacks_menus_template/docs/HowPartsWork.md)  
 
 ---
