@@ -64,14 +64,24 @@ Users that want additional features can try [Maaack's Game Template](https://git
 ## Installation
 
 ### Godot Asset Library
-This package is available as a plugin, meaning it can be added to an existing project. 
+This package is available as both a template and a plugin, meaning it can be used to start a new project, or added to an existing project. 
 
 ![Package Icon](/addons/maaacks_menus_template/media/menus-icon-black-transparent-256x256.png)  
+
+When starting a new project:
+
+1.  Go to the `Asset Library Projects` tab.
+2.  Search for "Maaack's Menus Template".
+3.  Click on the result to open the template details.
+4.  Click to Download.
+5.  Give the project a new name and destination.
+6.  Click to Install & Edit.
+7.  Continue with the [New Project Instructions](/addons/maaacks_menus_template/docs/NewProject.md)
 
 When editing an existing project:
 
 1.  Go to the `AssetLib` tab.
-2.  Search for "Maaack's Menus Template".
+2.  Search for "Maaack's Menus Template Plugin".
 3.  Click on the result to open the plugin details.
 4.  Click to Download.
 5.  Check that contents are getting installed to `addons/` and there are no conflicts.
@@ -100,7 +110,15 @@ When editing an existing project:
 
 ## Usage
 
+### New Project
+These instructions assume starting with the entire contents of the project folder. This will be the case when cloning the repo, or starting from the *template* version in the Godot Asset Library.
+  
+
+[New Project Instructions](/addons/maaacks_menus_template/docs/NewProject.md)
+
 ### Existing Project
+
+These instructions assume starting with just the contents of `addons/`. This will be the case when installing the *plugin* version in the Godot Asset Library.
 
 [Existing Project Instructions](/addons/maaacks_menus_template/docs/ExistingProject.md)  
    
