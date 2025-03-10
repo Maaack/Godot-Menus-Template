@@ -120,5 +120,5 @@ These instructions assume starting with the entire contents of the project folde
 
 9.  Continue with:
 
-    1.  [Setting up the Main Menu.](/addons/maaacks_game_template/docs/MainMenuSetup.md)  
-    2.  [Adding icons to the Input Options.](/addons/maaacks_game_template/docs/InputIconMapping.md)  
+    1.  [Setting up the Main Menu.](/addons/maaacks_menus_template/docs/MainMenuSetup.md)  
+    2.  [Adding icons to the Input Options.](/addons/maaacks_menus_template/docs/InputIconMapping.md)  

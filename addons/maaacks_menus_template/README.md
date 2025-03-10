@@ -133,10 +133,11 @@ These instructions assume starting with just the contents of `addons/`. This wil
 
 ## Featured Games
 
-| Rent Seek Kill  | A Darkness Like Gravity  | Nanny Bot Overload |
-| :-------: | :----------: | :----------: |
-![Rent-Seek-Kill](/addons/maaacks_menus_template/media/screenshot-game-rent-seek-kill.png)  |  ![A Darkness Like Gravity](/addons/maaacks_menus_template/media/screenshot-game-a-darkness-like-gravity.png)  |  ![NannyBot Overload](/addons/maaacks_menus_template/media/screenshot-game-nannybot-overload.png)  
-[Play on itch.io](https://xandruher.itch.io/rent-seek-kill)  |  [Play on itch.io](https://maaack.itch.io/a-darkness-like-gravity)  |  [Play on itch.io](https://justaguyjustaguy.itch.io/nannybot-overload)
+| Spud Customs | Rent Seek Kill  | A Darkness Like Gravity  |  
+| :-------:| :-------: | :-------: |
+![Spud Customs](/addons/maaacks_menus_template/media/screenshot-game-spud-customs.png)  |  ![Rent-Seek-Kill](/addons/maaacks_menus_template/media/screenshot-game-rent-seek-kill.png)  |  ![A Darkness Like Gravity](/addons/maaacks_menus_template/media/screenshot-game-a-darkness-like-gravity.png)  |
+[Find on Steam](https://store.steampowered.com/app/3291880/Spud_Customs/) | [Play on itch.io](https://xandruher.itch.io/rent-seek-kill)  |  [Play on itch.io](https://maaack.itch.io/a-darkness-like-gravity)  |
+
 
 [All Shared Games](/addons/maaacks_menus_template/docs/GamesMade.md)  
 
@@ -149,4 +150,5 @@ Join the [Discord server](https://discord.gg/AyZrJh5AMp ) and share your work wi
 ## Links
 [Attribution](/addons/maaacks_menus_template/ATTRIBUTION.md)  
 [License](/addons/maaacks_menus_template/LICENSE.txt)  
-[Godot Asset Library - Plugin](https://godotengine.org/asset-library/asset/2899) 
+[Godot Asset Library - Template](https://godotengine.org/asset-library/asset/3790)  
+[Godot Asset Library - Plugin](https://godotengine.org/asset-library/asset/2899)  
