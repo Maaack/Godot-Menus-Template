@@ -17,7 +17,7 @@ Some designs may require rearranging the nodes in the scene tree. This is easier
 When adding a 3D background to the menu, it is recommended to use a `SubViewportContainer` in place of or right above the `BackgroundTextureRect`. Then add a `SubViewport` to it, and finally the 3D world node to that. This structure gives fine-tune control of scaling, allows for layering 3D views when they have transparency, and makes it easy to add a texture shader to the whole background.
 
 ## Theming
-It is recommended to create a theme resource file and set it as the custom theme in the project settings. Any changes made to the theme file will then apply automatically to the whole project.
+It is recommended to have a custom theme for a project. Create a theme resource file or use one of the ones provided with the template and set it as the custom theme in the project settings. Any changes made to the theme file will then apply automatically to the whole project.
 
 The main UI elements that are used throughout the project that require theming for customization are:
 - Button
