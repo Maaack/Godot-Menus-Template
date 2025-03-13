@@ -11,8 +11,6 @@ The template is presented here in a 640x360 resolution, but up to 4k resolutions
 ![Input Tree - Default](/addons/maaacks_menus_template/media/screenshot-6-input-tree-4.png)  
 ![Audio Options - Default](/addons/maaacks_menus_template/media/screenshot-6-audio-options-6.png)  
 ![Video Options - Default](/addons/maaacks_menus_template/media/screenshot-6-video-options-6.png)  
-![Level Won - Default](/addons/maaacks_menus_template/media/screenshot-6-level-won-3.png)  
-![Level Lost - Default](/addons/maaacks_menus_template/media/screenshot-6-level-lost-3.png)  
 
 ## Gravity
 ![Main Menu - Gravity](/addons/maaacks_menus_template/media/screenshot-6-main-menu-1.png)  
@@ -23,8 +21,6 @@ The template is presented here in a 640x360 resolution, but up to 4k resolutions
 ![Video Options - Gravity](/addons/maaacks_menus_template/media/screenshot-6-video-options-1.png)  
 ![Level State - Gravity](/addons/maaacks_menus_template/media/screenshot-6-level-state-1.png)  
 ![Pause Menu - Gravity](/addons/maaacks_menus_template/media/screenshot-6-pause-menu-2.png)  
-![Level Won - Gravity](/addons/maaacks_menus_template/media/screenshot-6-level-won-1.png)  
-![Level Lost - Gravity](/addons/maaacks_menus_template/media/screenshot-6-level-lost-1.png)  
 
 ## Lore
 ![Main Menu - Lore](/addons/maaacks_menus_template/media/screenshot-6-main-menu-2.png)  
@@ -41,8 +37,6 @@ The template is presented here in a 640x360 resolution, but up to 4k resolutions
 ![Audio Options - Steal This Theme](/addons/maaacks_menus_template/media/screenshot-6-audio-options-4.png)  
 ![Video Options - Steal This Theme](/addons/maaacks_menus_template/media/screenshot-6-video-options-5.png)  
 ![Pause Menu - Steal This Theme](/addons/maaacks_menus_template/media/screenshot-6-pause-menu-4.png)  
-![Level Won - Steal This Theme](/addons/maaacks_menus_template/media/screenshot-6-level-won-2.png)  
-![Level Won - Steal This Theme](/addons/maaacks_menus_template/media/screenshot-6-level-won-2.png)  
 ![Loading Screen - Steal This Theme](/addons/maaacks_menus_template/media/screenshot-6-loading-screen-1.png)  
 ![Loading Screen - Steal This Theme](/addons/maaacks_menus_template/media/screenshot-6-loading-screen-2.png)  
 ![Loading Screen - Steal This Theme](/addons/maaacks_menus_template/media/screenshot-6-loading-screen-3.png)  
