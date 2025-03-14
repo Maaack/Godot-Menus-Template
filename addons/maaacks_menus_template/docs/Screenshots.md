@@ -19,7 +19,6 @@ The template is presented here in a 640x360 resolution, but up to 4k resolutions
 ![Input Tree - Gravity](/addons/maaacks_menus_template/media/screenshot-6-input-tree-1.png)  
 ![Audio Options - Gravity](/addons/maaacks_menus_template/media/screenshot-6-audio-options-1.png)  
 ![Video Options - Gravity](/addons/maaacks_menus_template/media/screenshot-6-video-options-1.png)  
-![Level State - Gravity](/addons/maaacks_menus_template/media/screenshot-6-level-state-1.png)  
 ![Pause Menu - Gravity](/addons/maaacks_menus_template/media/screenshot-6-pause-menu-2.png)  
 
 ## Lore
