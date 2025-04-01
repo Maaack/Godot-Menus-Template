@@ -10,6 +10,6 @@ This page features snippets of extra documentation on key pieces of the plugin. 
 - `credits.tscn` reads from `ATTRIBUTION.md` to automatically generate the content for it's scrolling text label.  
 - The `UISoundController` node automatically attaches sounds to buttons, tab bars, sliders, and line edits in the scene. `project_ui_sound_controller.tscn` is an autload used to apply UI sounds project-wide.
 - `project_music_controller.tscn` is an autoload that keeps music playing between scenes. It detects music stream players as they are added to the scene tree, reparents them to itself, and blends the tracks.  
-- The `PauseMenuController` node loads the `pause_menu.tscn` when triggering `ui-cancel`.
+- The `PauseMenuController` can be set to load `pause_menu.tscn` when triggering `ui-cancel`.
 - `pause_menu.tscn` is a type of `OverlaidMenu` with the `pauses_game` flag set to true. It will store the previously focused UI element, and return focus to it when closed.
 - `capture_focus.gd` is attached to container nodes throughout the UI. It focuses onto UI elements when they are shown, allowing for easier navigation without a mouse.
