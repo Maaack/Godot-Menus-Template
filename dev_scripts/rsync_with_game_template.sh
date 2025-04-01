@@ -25,11 +25,11 @@ fi
 
 
 # Source and destination directors
-src_dir="$source/addons/maaacks_game_template"
-dest_dir="../addons/maaacks_menus_template"
+src_dir="$source/addons/maaacks_game_template/"
+dest_dir="../addons/maaacks_menus_template/"
 
 echo $src_dir
-rsync -av --existing "$src_dir/" "$dest_dir"
+find $src_dir -type d -empty -o -type f -ctime -10 -printf '%P\0' | rsync -av --files-from=- --from0 "$src_dir" "$dest_dir"
 
 # Define strings to replace
 finds=("game_template" "Game Template" "Game-Template" "game-template")
