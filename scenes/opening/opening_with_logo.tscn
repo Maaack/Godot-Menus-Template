@@ -1,10 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://6afdesa5f8dp"]
+[gd_scene load_steps=4 format=3 uid="uid://gh2rpt0qvupc"]
 
 [ext_resource type="PackedScene" uid="uid://sikc02ddepyt" path="res://addons/maaacks_menus_template/base/scenes/opening/opening.tscn" id="1_eyvnu"]
-[ext_resource type="Script" uid="uid://dj4218egpxt7o" path="res://scenes/opening/opening.gd" id="2_7r73g"]
-[ext_resource type="Texture2D" uid="uid://duivea4pxuyl7" path="res://assets/godot_engine_logo/logo_vertical_color_dark.png" id="3_yrqe7"]
+[ext_resource type="Script" uid="uid://c0i8vr6g4tbb8" path="res://scenes/opening/opening.gd" id="2_i1ftt"]
+[ext_resource type="Texture2D" uid="uid://b218vdq337vl" path="res://assets/godot_engine_logo/logo_vertical_color_dark.png" id="3_nk1kj"]
 
 [node name="Opening" instance=ExtResource("1_eyvnu")]
-script = ExtResource("2_7r73g")
-next_scene = "res://scenes/menus/main_menu/main_menu_with_animations.tscn"
-images = Array[Texture2D]([ExtResource("3_yrqe7")])
+script = ExtResource("2_i1ftt")
+next_scene = "uid://cbeoayh8148ux"
+images = Array[Texture2D]([ExtResource("3_nk1kj")])
