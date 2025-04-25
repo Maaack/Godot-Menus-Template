@@ -6,4 +6,5 @@
 
 [node name="Opening" instance=ExtResource("1_eyvnu")]
 script = ExtResource("2_i1ftt")
+next_scene = "uid://cbeoayh8148ux"
 images = Array[Texture2D]([ExtResource("3_nk1kj")])
