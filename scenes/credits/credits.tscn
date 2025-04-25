@@ -10,19 +10,12 @@ attribution_file_path = "res://ATTRIBUTION.md"
 [node name="CreditsLabel" parent="ScrollContainer/VBoxContainer" index="1"]
 text = "[center][font_size=48]Collaborators[/font_size]
 
-[font_size=32]Role[/font_size]
-Person 1  
-Person 2  
-[url=]Person w/ Link[/url]  
+[font_size=32]Godot Menus Template[/font_size]
+Author: [url=https://github.com/Maaack/Godot-Menus-Template/graphs/contributors]Marek Belski[/url]  
+Source: [url=https://github.com/Maaack/Godot-Menus-Template]github: Godot-Menus-Template[/url]  
+License: [url=LICENSE.txt]MIT License[/url]  
 
-
-[font_size=48]Sourced / Unaffiliated[/font_size]
-[font_size=32]Asset Type[/font_size]
-[font_size=24]Use Case[/font_size]
-Author: [url=]Name[/url]  
-Source: [url=]Domain : webpage.html[/url]  
-License: [url=]License[/url]
-
+[font_size=48]Sourced[/font_size]
 [font_size=24]Godot Engine Logo[/font_size]
 Author: Andrea Calabró  
 Source: [url=https://godotengine.org/press/]godotengine.org : press[/url]  
@@ -34,13 +27,13 @@ Author: [url=https://godotengine.org/contact]Juan Linietsky, Ariel Manzur, and c
 Source: [url=https://godotengine.org/]godotengine.org[/url]  
 License: [url=https://github.com/godotengine/godot/blob/master/LICENSE.txt]MIT License[/url] 
 
+[font_size=24]Visual Studio Code[/font_size]
+Author: [url=https://opensource.microsoft.com/]Microsoft[/url]  
+Source: [url=https://github.com/microsoft/vscode]github: vscode[/url]  
+License: [url=https://github.com/microsoft/vscode/blob/main/LICENSE.txt]MIT License[/url]
+
 [font_size=24]Git[/font_size]
 Author: [url=https://github.com/torvalds]Linus Torvalds[/url]  
 Source: [url=https://git-scm.com/downloads]git-scm.com[/url]  
 License: [url=https://opensource.org/licenses/GPL-2.0]GNU General Public License version 2[/url]
-
-[font_size=24]Godot Menus Template[/font_size]
-Author: [url=https://github.com/Maaack/Godot-Menus-Template/graphs/contributors]Marek Belski[/url]  
-Source: [url=https://github.com/Maaack/Godot-Menus-Template]github: Godot-Menus-Template[/url]  
-License: [url=LICENSE.txt]MIT License[/url]  
 [/center]"
