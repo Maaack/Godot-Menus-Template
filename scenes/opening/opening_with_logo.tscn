@@ -1,15 +1,9 @@
 [gd_scene load_steps=4 format=3 uid="uid://gh2rpt0qvupc"]
 
 [ext_resource type="PackedScene" uid="uid://sikc02ddepyt" path="res://addons/maaacks_menus_template/base/scenes/opening/opening.tscn" id="1_eyvnu"]
-
-[sub_resource type="GDScript" id="GDScript_mawsx"]
-script/source = "extends \"res://addons/maaacks_menus_template/base/scenes/opening/opening.gd\"
-"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pxp78"]
-load_path = "res://.godot/imported/logo_vertical_color_dark.png-056a6f9bbcf3b5b4e6d6f8f5f4aa19c6.ctex"
+[ext_resource type="Script" uid="uid://c0i8vr6g4tbb8" path="res://scenes/opening/opening.gd" id="2_i1ftt"]
+[ext_resource type="Texture2D" uid="uid://b218vdq337vl" path="res://assets/godot_engine_logo/logo_vertical_color_dark.png" id="3_nk1kj"]
 
 [node name="Opening" instance=ExtResource("1_eyvnu")]
-script = SubResource("GDScript_mawsx")
-next_scene = "res://scenes/menus/main_menu/main_menu_with_animations.tscn"
-images = Array[Texture2D]([SubResource("CompressedTexture2D_pxp78")])
+script = ExtResource("2_i1ftt")
+images = Array[Texture2D]([ExtResource("3_nk1kj")])
