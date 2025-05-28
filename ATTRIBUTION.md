@@ -2,11 +2,11 @@
 ## Collaborators
 
 ### Godot Menus Template
-Author: [Marek Belski](https://github.com/Maaack/Godot-Menus-Template/graphs/contributors)  
+Author: [Marek Belski and contributors](https://github.com/Maaack/Godot-Menus-Template/graphs/contributors)  
 Source: [github: Godot-Menus-Template](https://github.com/Maaack/Godot-Menus-Template)  
 License: [MIT License](LICENSE.txt)  
 
-## Sourced
+## Sourced  
 #### Godot Engine Logo
 Author: Andrea Calabró  
 Source: [godotengine.org : press](https://godotengine.org/press/)  
