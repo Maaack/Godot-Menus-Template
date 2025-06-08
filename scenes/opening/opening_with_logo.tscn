@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://gh2rpt0qvupc"]
 
 [ext_resource type="PackedScene" uid="uid://sikc02ddepyt" path="res://addons/maaacks_menus_template/base/scenes/opening/opening.tscn" id="1_eyvnu"]
-[ext_resource type="Script" uid="uid://c0i8vr6g4tbb8" path="res://scenes/opening/opening.gd" id="2_i1ftt"]
+[ext_resource type="Script" uid="uid://d3wbbumv35xnj" path="res://scenes/opening/opening.gd" id="2_i1ftt"]
 [ext_resource type="Texture2D" uid="uid://b218vdq337vl" path="res://assets/godot_engine_logo/logo_vertical_color_dark.png" id="3_nk1kj"]
 
 [node name="Opening" instance=ExtResource("1_eyvnu")]
