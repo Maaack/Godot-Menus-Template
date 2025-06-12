@@ -10,7 +10,7 @@ script = ExtResource("2_35kdw")
 text = "[center][font_size=48]Collaborators[/font_size]
 
 [font_size=32]Godot Menus Template[/font_size]
-[img=80]res:///addons/maaacks_menus_template/assets/icon.png[/img]  
+[img=80]res:///addons/maaacks_menus_template/assets/plugin_logo/logo.png[/img]  
 Author: [url=https://github.com/Maaack/Godot-Menus-Template/graphs/contributors]Marek Belski and contributors[/url]  
 Source: [url=https://github.com/Maaack/Godot-Menus-Template]github: Godot-Menus-Template[/url]  
 License: [url=LICENSE.txt]MIT License[/url]  
