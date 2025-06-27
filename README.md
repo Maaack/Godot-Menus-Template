@@ -1,5 +1,5 @@
 # Godot Menus Template
-For Godot 4.4 (4.2+ compatible)
+For Godot 4.4 (4.3+ compatible)
 
 This template has a main menu, options menus, credits, and a scene loader.
 
@@ -132,6 +132,7 @@ These instructions assume starting with just the contents of `addons/`. This wil
 [Input Icon Mapping](/addons/maaacks_menus_template/docs/InputIconMapping.md)  
 [Joypad Inputs](/addons/maaacks_menus_template/docs/JoypadInputs.md)  
 [How Parts Work](/addons/maaacks_menus_template/docs/HowPartsWork.md)  
+[Automatic Updating](/addons/maaacks_menus_template/docs/AutomaticUpdating.md)  
 
 ---
 
