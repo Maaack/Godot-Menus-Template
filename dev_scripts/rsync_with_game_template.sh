@@ -32,8 +32,8 @@ echo $src_dir
 find $src_dir -type d -empty -o -type f -ctime -10 -printf '%P\0' | rsync -av --files-from=- --from0 "$src_dir" "$dest_dir"
 
 # Define strings to replace
-finds=("game_template" "Game Template" "Game-Template" "game-template")
-replaces=("menus_template" "Menus Template" "Menus-Template" "menus-template")
+finds=("game_template" "Game Template" "GameTemplate" "Game-Template" "game-template")
+replaces=("menus_template" "Menus Template" "MenusTemplate" "Menus-Template" "menus-template")
 
 # Checks for strings and replaces them
 for ((i=0; i<${#finds[@]}; i++)); do
