@@ -1,5 +1,9 @@
 @tool
+class_name MaaacksMenusTemplatePlugin
 extends EditorPlugin
+
+const APIClient = preload("res://addons/maaacks_menus_template/utilities/api_client.gd")
+const DownloadAndExtract = preload("res://addons/maaacks_menus_template/utilities/download_and_extract.gd")
 
 const PLUGIN_NAME = "Maaack's Menus Template"
 const PROJECT_SETTINGS_PATH = "maaacks_menus_template/"
