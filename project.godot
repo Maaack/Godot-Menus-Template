@@ -103,6 +103,7 @@ locale/translations=PackedStringArray("res://addons/maaacks_menus_template/base/
 copy_path="res://"
 disable_update_check=false
 disable_install_wizard=true
+disable_install_audio_busses=true
 
 [physics]
 
