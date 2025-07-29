@@ -46,6 +46,7 @@ These instructions assume starting with the entire contents of the project folde
         6.  Save the scene.
         7.  Optionally, repeat steps 3-5 for background music nodes in:
             1.  `opening_with_logo.tscn`
+            2.  `end_credits.tscn`
 
 
     3.  Add sound effects to UI elements.
