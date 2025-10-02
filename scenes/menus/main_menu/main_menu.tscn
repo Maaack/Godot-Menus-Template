@@ -2,8 +2,8 @@
 
 [ext_resource type="PackedScene" uid="uid://c6k5nnpbypshi" path="res://addons/maaacks_menus_template/base/scenes/menus/main_menu/main_menu.tscn" id="1_peecx"]
 [ext_resource type="Script" uid="uid://bp83jdigiwojw" path="res://scenes/menus/main_menu/main_menu.gd" id="2_ub2bi"]
-[ext_resource type="PackedScene" uid="uid://c4ea4cwximdvs" path="res://scenes/menus/options_menu/master_options_menu_with_tabs.tscn" id="3_x31ro"]
-[ext_resource type="PackedScene" uid="uid://c72enynwlon42" path="res://scenes/credits/scrollable_credits.tscn" id="4_0jpat"]
+[ext_resource type="PackedScene" uid="uid://doqhyaffd2lsi" path="res://scenes/overlaid_menus/master_options_overlaid_menu.tscn" id="3_x31ro"]
+[ext_resource type="PackedScene" uid="uid://cx86i1j4eu67d" path="res://scenes/overlaid_menus/credits_overlaid_menu.tscn" id="4_0jpat"]
 
 [node name="MainMenu" instance=ExtResource("1_peecx")]
 script = ExtResource("2_ub2bi")

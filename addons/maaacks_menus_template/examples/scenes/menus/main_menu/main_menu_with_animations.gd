@@ -14,9 +14,9 @@ func _event_skips_intro(event : InputEvent) -> bool:
 		event.is_action_released("ui_cancel") or \
 		_event_is_mouse_button_released(event)
 
-func _open_sub_menu(menu : Node) -> void:
-	super._open_sub_menu(menu)
+func _open_sub_menu(menu : PackedScene) -> Node:
 	animation_state_machine.travel("OpenSubMenu")
+	return super._open_sub_menu(menu)
 
 func _close_sub_menu() -> void:
 	super._close_sub_menu()
