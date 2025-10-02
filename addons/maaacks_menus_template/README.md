@@ -135,6 +135,7 @@ These instructions assume starting with just the contents of `addons/`. This wil
 [Blending Music](/addons/maaacks_menus_template/docs/BlendingMusic.md)  
 [Add Custom Options](/addons/maaacks_menus_template/docs/AddingCustomOptions.md)  
 [How Parts Work](/addons/maaacks_menus_template/docs/HowPartsWork.md)  
+[Moving Files](/addons/maaacks_menus_template/docs/MovingFiles.md)  
 [Automatic Updating](/addons/maaacks_menus_template/docs/AutomaticUpdating.md)  
 
 ---
