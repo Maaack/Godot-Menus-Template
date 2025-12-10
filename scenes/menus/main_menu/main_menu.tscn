@@ -2,10 +2,10 @@
 
 [ext_resource type="PackedScene" uid="uid://c6k5nnpbypshi" path="res://addons/maaacks_menus_template/base/nodes/menus/main_menu/main_menu.tscn" id="1_peecx"]
 [ext_resource type="Script" uid="uid://bp83jdigiwojw" path="res://scenes/menus/main_menu/main_menu.gd" id="2_peecx"]
-[ext_resource type="PackedScene" uid="uid://rqw083glsof7" path="res://scenes/overlaid_menus/main_menu_options_overlaid_menu.tscn" id="3_ub2bi"]
-[ext_resource type="PackedScene" uid="uid://duvnfxt4phaxj" path="res://scenes/overlaid_menus/main_menu_credits_overlaid_menu.tscn" id="4_x31ro"]
+[ext_resource type="PackedScene" uid="uid://isodf20gpedt" path="res://scenes/windows/main_menu_options_window.tscn" id="3_x31ro"]
+[ext_resource type="PackedScene" uid="uid://bl78i66px14kc" path="res://scenes/windows/main_menu_credits_window.tscn" id="4_0jpat"]
 
 [node name="MainMenu" instance=ExtResource("1_peecx")]
 script = ExtResource("2_peecx")
-options_packed_scene = ExtResource("3_ub2bi")
-credits_packed_scene = ExtResource("4_x31ro")
+options_packed_scene = ExtResource("3_x31ro")
+credits_packed_scene = ExtResource("4_0jpat")
