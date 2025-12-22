@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://isodf20gpedt"]
 
-[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/nodes/windows/overlaid_window_scene_container.tscn" id="1_miy0a"]
-[ext_resource type="PackedScene" path="res://scenes/menus/options_menu/master_options_menu_with_tabs.tscn" id="2_mljqd"]
+[ext_resource type="PackedScene" uid="uid://crndfbb22ri4s" path="res://addons/maaacks_menus_template/base/nodes/windows/overlaid_window_scene_container.tscn" id="1_miy0a"]
+[ext_resource type="PackedScene" uid="uid://bmvh8ic2bydjp" path="res://scenes/menus/options_menu/master_options_menu_with_tabs.tscn" id="2_mljqd"]
 
 [node name="MainMenuOptionsOverlaidWindow" instance=ExtResource("1_miy0a")]
 anchors_preset = 15

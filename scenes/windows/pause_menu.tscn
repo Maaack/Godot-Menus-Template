@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://devsi0ttwcwb4"]
 
-[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/nodes/windows/overlaid_window.tscn" id="1_yn032"]
-[ext_resource type="Script" path="res://scenes/windows/pause_menu.gd" id="2_00o4m"]
-[ext_resource type="PackedScene" path="res://scenes/windows/pause_menu_options_window.tscn" id="3_mdvg7"]
-[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/nodes/windows/confirmation_overlaid_window.tscn" id="4_6lma4"]
+[ext_resource type="PackedScene" uid="uid://6gdbfi0172ji" path="res://addons/maaacks_menus_template/base/nodes/windows/overlaid_window.tscn" id="1_yn032"]
+[ext_resource type="Script" uid="uid://4a6rwoc11dsu" path="res://scenes/windows/pause_menu.gd" id="2_00o4m"]
+[ext_resource type="PackedScene" uid="uid://dqsvgldhj81i" path="res://scenes/windows/pause_menu_options_window.tscn" id="3_mdvg7"]
+[ext_resource type="PackedScene" uid="uid://cwt4p3bufkke5" path="res://addons/maaacks_menus_template/base/nodes/windows/confirmation_overlaid_window.tscn" id="4_6lma4"]
 
 [node name="PauseMenu" instance=ExtResource("1_yn032")]
 process_mode = 3
