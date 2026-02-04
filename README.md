@@ -1,5 +1,5 @@
 # Godot Menus Template
-For Godot 4.5 (4.3+ compatible)
+For Godot 4.6 (4.3+ compatible)
 
 This template has a main menu, options menus, credits, and a scene loader.
 
@@ -54,10 +54,9 @@ The `base/` folder holds the core components of the menus application.
 The `examples/` folder contains an example project using inherited scenes from the `base/` and `extras/`.
 
 -   End Credits
--   Additional Inherited Scenes:
-    -   Main Menu w/ Animations
-    -   Opening w/ Godot Logo
-    -   Loading Screen w/ Shader Pre-caching 
+-   Main Menu w/ Animations
+-   Opening w/ Godot Logo
+-   Loading Screen w/ Shader Pre-caching 
 
 ### Extras or Components
 
@@ -133,6 +132,7 @@ These instructions assume starting with just the contents of `addons/`. This wil
 [Input Icon Mapping](/addons/maaacks_menus_template/docs/InputIconMapping.md)  
 [Joypad Inputs](/addons/maaacks_menus_template/docs/JoypadInputs.md)  
 [Blending Music](/addons/maaacks_menus_template/docs/BlendingMusic.md)  
+[Add UI Sound Effects](/addons/maaacks_menus_template/docs/AddingUISFX.md)  
 [Add Custom Options](/addons/maaacks_menus_template/docs/AddingCustomOptions.md)  
 [How Parts Work](/addons/maaacks_menus_template/docs/HowPartsWork.md)  
 [Moving Files](/addons/maaacks_menus_template/docs/MovingFiles.md)  

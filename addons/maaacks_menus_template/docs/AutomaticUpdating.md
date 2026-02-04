@@ -27,4 +27,4 @@ If the option to update does not appear, try restarting the editor, or re-enabli
 
 Updating adds the examples folder into the `addons/maaacks_menus_template/` folder, if it had been deleted previously.
 
-Files already copied from the examples folder will not be affected by an update. However, a mismatch of versions may cause issues, too. If there are no major customizations to the copied files, it is recommended to delete them and recopy from `Project > Tools > Copy Maaack's Menus Template Examples...`.
+Files already copied from the examples folder will not be affected by an update. However, a mismatch of versions may cause issues, too. If there are no major customizations to the copied files, it is recommended to delete them and recopy from `Project > Tools > Run Maaack's Menus Template Setup...`.

@@ -1,9 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://c72enynwlon42"]
+[gd_scene format=3 uid="uid://c72enynwlon42"]
 
 [ext_resource type="Script" uid="uid://deylk0txcofd2" path="res://scenes/credits/scrollable_credits.gd" id="1_jnbjt"]
 [ext_resource type="PackedScene" uid="uid://i36xcmixieoo" path="res://scenes/credits/credits_label.tscn" id="2_35kdw"]
 
-[node name="ScrollableCredits" type="Control"]
+[node name="ScrollableCredits" type="Control" unique_id=804984147]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -12,7 +12,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_jnbjt")
 
-[node name="CreditsLabel" parent="." instance=ExtResource("2_35kdw")]
+[node name="CreditsLabel" parent="." unique_id=2116462209 instance=ExtResource("2_35kdw")]
 unique_name_in_owner = true
 layout_mode = 1
 fit_content = false

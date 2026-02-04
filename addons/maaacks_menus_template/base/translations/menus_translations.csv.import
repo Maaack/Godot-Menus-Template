@@ -15,3 +15,5 @@ dest_files=["res://addons/maaacks_menus_template/base/translations/menus_transla
 
 compress=true
 delimiter=0
+unescape_keys=false
+unescape_translations=true
