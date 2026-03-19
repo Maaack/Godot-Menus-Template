@@ -1,5 +1,8 @@
 # Existing Project
 
+> [!WARNING]  
+> This page is being deprecated in favor of [Basic Setup](/addons/maaacks_menus_template/docs/BasicSetup.md).
+
 These instructions assume starting with just the contents of `addons/` and going through the installer to copy the examples content into your project. This will be the case when installing the *plugin* version in the Godot Asset Library.
 
 To revisit any part of the initial setup, find the `Setup Wizard` at `Project > Tools > Run Maaack's Menus Template Setup...`. Example files can be re-copied from the `Setup Wizard`, assuming they have not been deleted.
