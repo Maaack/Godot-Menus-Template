@@ -2,7 +2,7 @@
 
 Here is a basic guide for setting up a game scene for advanced users.  
 
-The [Godot Game Template](https://github.com/Maaack/Godot-Game-Template) is recommended for first time users, as it includes an example game scene, with level progression.  
+The [Minimal Game Template](https://github.com/Maaack/Godot-Minimal-Game-Template) is recommended for first time users, as it includes an example game scene, with level progression.  
 
 ## Pausing
 The `PauseMenuController` node can be added to the tree, or the `pause_menu_controller.gd` script may be attached to an empty `Node`. Selecting the node should then allow for setting the `pause_menu_packed` value in the inspector. Set it to the `pause_menu.tscn` scene and save.

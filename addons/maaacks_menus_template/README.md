@@ -1,6 +1,10 @@
 # Godot Menus Template
 For Godot 4.6 (4.3+ compatible)
 
+> [!NOTE]  
+> Using the latest version of Godot is recommended.   
+> If getting stuck on a gray screen, see [Main Menu Setup](/addons/maaacks_menus_template/docs/MainMenuSetup.md).  
+
 This template has a main menu, options menus, credits, and a scene loader.
 
 [Example on itch.io](https://maaack.itch.io/godot-game-template)  
@@ -27,7 +31,7 @@ Setup menus and accessibility features in about 15 minutes.
 
 The template can be the start of a new project, or plug into an existing one. It is game agnostic (2D or 3D) and can work with multiple target resolutions, up to 4k and down to 640x360. It's meant to cover the needs for a typical game jam, while remaining scalable and extensible enough to support commercial games.
 
-[Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template) is recommended for first time users, especially those new to Godot.  
+[Maaack's Minimal Game Template](https://github.com/Maaack/Godot-Minimal-Game-Template) is recommended for first time users, especially those new to Godot.  
 
 ## Features
 
@@ -78,7 +82,7 @@ When starting a new project:
 4.  Click to Download.
 5.  Give the project a new name and destination.
 6.  Click to Install & Edit.
-7.  Continue with the [New Project Instructions](/addons/maaacks_menus_template/docs/NewProject.md)
+7.  Continue with the [Basic Setup](/addons/maaacks_menus_template/docs/BasicSetup.md)
 
 When editing an existing project:
 
@@ -90,10 +94,9 @@ When editing an existing project:
 6.  Click to Install.
 7.  Reload the project (you may see errors before you do this).
 8.  Enable the plugin from the Project Settings > Plugins tab.  
-    If it's enabled for the first time,
-    1.  A dialogue window will appear asking to copy the example scenes out of `addons/`.
-    2.  Another dialogue window will ask to update the project's main scene.
-9.  Continue with the [Existing Project Instructions](/addons/maaacks_menus_template/docs/ExistingProject.md)  
+    1.  If it's enabled for the first time, the setup wizard will start.  
+    2.  Close the window behind it and complete the setup wizard.  
+9.  Continue with the [Basic Setup](/addons/maaacks_menus_template/docs/BasicSetup.md)
 
 
 ### GitHub
@@ -104,36 +107,28 @@ When editing an existing project:
 3.  Move the `addons/maaacks_menus_template` folder into your project's `addons/` folder.  
 4.  Open/Reload the project.  
 5.  Enable the plugin from the Project Settings > Plugins tab.  
-    If it's enabled for the first time,
-    1.  A dialogue window will appear asking to copy the example scenes out of `addons/`.
-    2.  Another dialogue window will ask to update the project's main scene.
-6.  Continue with the [Existing Project Instructions](/addons/maaacks_menus_template/docs/ExistingProject.md) 
+    1.  If it's enabled for the first time, the setup wizard will start.  
+    2.  Close the window behind it and complete the setup wizard.  
+6.  Continue with the [Basic Setup](/addons/maaacks_menus_template/docs/BasicSetup.md)
 
 
 ## Usage
 
-### New Project
-These instructions assume starting with the entire contents of the project folder. This will be the case when cloning the repo, or starting from the *template* version in the Godot Asset Library.
-  
+[Basic Setup](/addons/maaacks_menus_template/docs/BasicSetup.md) is done through the _Setup Wizard_ at `Project > Tools > Run Maaack's Menus Template Setup...`.
 
-[New Project Instructions](/addons/maaacks_menus_template/docs/NewProject.md)
-
-### Existing Project
-
-These instructions assume starting with just the contents of `addons/`. This will be the case when installing the *plugin* version in the Godot Asset Library.
-
-[Existing Project Instructions](/addons/maaacks_menus_template/docs/ExistingProject.md)  
+As part of setup, example scenes are copied out of `/addons/` into a desired folder (project root by default). These can be edited to fit requirements.
    
 ### More Documentation
 
 [Main Menu Setup](/addons/maaacks_menus_template/docs/MainMenuSetup.md)  
+[Options Menu Setup](/addons/maaacks_menus_template/docs/OptionsMenuSetup.md)  
 [Game Scene Setup](/addons/maaacks_menus_template/docs/GameSceneSetup.md)  
+[Updating Credits](/addons/maaacks_menus_template/docs/UpdatingCredits.md)  
+[Blending Music](/addons/maaacks_menus_template/docs/BlendingMusic.md)  
+[Adding UI Sound Effects](/addons/maaacks_menus_template/docs/AddingUISFX.md)  
 [Loading Scenes](/addons/maaacks_menus_template/docs/LoadingScenes.md)  
 [Input Icon Mapping](/addons/maaacks_menus_template/docs/InputIconMapping.md)  
 [Joypad Inputs](/addons/maaacks_menus_template/docs/JoypadInputs.md)  
-[Blending Music](/addons/maaacks_menus_template/docs/BlendingMusic.md)  
-[Add UI Sound Effects](/addons/maaacks_menus_template/docs/AddingUISFX.md)  
-[Add Custom Options](/addons/maaacks_menus_template/docs/AddingCustomOptions.md)  
 [How Parts Work](/addons/maaacks_menus_template/docs/HowPartsWork.md)  
 [Moving Files](/addons/maaacks_menus_template/docs/MovingFiles.md)  
 [Automatic Updating](/addons/maaacks_menus_template/docs/AutomaticUpdating.md)  
