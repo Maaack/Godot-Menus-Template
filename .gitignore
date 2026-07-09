@@ -8,6 +8,7 @@ export_presets.cfg
 
 # Imported translations (automatically generated from CSV files)
 *.translation.godot/
+*.translation
 
 # Mono-specific ignores
 .mono/
@@ -21,3 +22,6 @@ Exports/
 # IDE and OS specific
 .idea/
 .DS_Store
+
+# Dev specific
+.dev_scripts/

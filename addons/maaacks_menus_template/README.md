@@ -1,5 +1,5 @@
 # Godot Menus Template
-For Godot 4.6 (4.3+ compatible)
+For Godot 4.7 (4.3+ compatible)
 
 > [!NOTE]  
 > Using the latest version of Godot is recommended.   
@@ -69,14 +69,14 @@ Users that want additional features can try [Maaack's Game Template](https://git
 
 ## Installation
 
-### Godot Asset Library
+### Godot Asset Store & Library
 This package is available as both a template and a plugin, meaning it can be used to start a new project, or added to an existing project. 
 
 ![Package Icon](/addons/maaacks_menus_template/media/menus-icon-black-transparent-256x256.png)  
 
 When starting a new project:
 
-1.  Go to the `Asset Library Projects` tab.
+1.  Go to the `Asset Store` tab.
 2.  Search for "Maaack's Menus Template".
 3.  Click on the result to open the template details.
 4.  Click to Download.
@@ -86,8 +86,8 @@ When starting a new project:
 
 When editing an existing project:
 
-1.  Go to the `AssetLib` tab.
-2.  Search for "Maaack's Menus Template Plugin".
+1.  Go to the `Asset Store` tab.
+2.  Search for "Maaack's Menus Template Addon".
 3.  Click on the result to open the plugin details.
 4.  Click to Download.
 5.  Check that contents are getting installed to `addons/` and there are no conflicts.
@@ -154,5 +154,7 @@ Join the [Discord server](https://discord.gg/AyZrJh5AMp ) and share your work wi
 ## Links
 [Attribution](/addons/maaacks_menus_template/ATTRIBUTION.md)  
 [License](/addons/maaacks_menus_template/LICENSE.txt)  
+[Godot Asset Store - Template](https://store.godotengine.org/asset/maaack/maaacks-menus-template/)  
+[Godot Asset Store - Addon](https://store.godotengine.org/asset/maaack/maaacks-menus-template-addon/)  
 [Godot Asset Library - Template](https://godotengine.org/asset-library/asset/3790)  
 [Godot Asset Library - Plugin](https://godotengine.org/asset-library/asset/2899)  
