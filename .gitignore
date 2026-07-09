@@ -22,3 +22,6 @@ Exports/
 # IDE and OS specific
 .idea/
 .DS_Store
+
+# Dev specific
+.dev_scripts/
