@@ -1,7 +1,7 @@
-[gd_scene format=3 uid="uid://cnrurhko688wa"]
+[gd_scene format=3 uid="uid://cj18xby0bu1tk"]
 
 [ext_resource type="PackedScene" uid="uid://c6k5nnpbypshi" path="res://addons/maaacks_menus_template/base/nodes/menus/main_menu/main_menu.tscn" id="1_rr1rn"]
-[ext_resource type="Script" uid="uid://dfsg4qgand5n2" path="res://scenes/menus/main_menu/main_menu_with_animations.gd" id="2_rr1rn"]
+[ext_resource type="Script" uid="uid://bkek1dxg48njk" path="res://scenes/menus/main_menu/main_menu_with_animations.gd" id="2_sr523"]
 [ext_resource type="PackedScene" uid="uid://isodf20gpedt" path="res://scenes/windows/main_menu_options_window.tscn" id="3_ixa71"]
 [ext_resource type="PackedScene" uid="uid://bl78i66px14kc" path="res://scenes/windows/main_menu_credits_window.tscn" id="4_2k5l7"]
 
@@ -313,15 +313,15 @@ states/Start/position = Vector2(82, 123)
 transitions = ["Intro", "OpenMainMenu", SubResource("11"), "OpenMainMenu", "OpenSubMenu", SubResource("14"), "Start", "Intro", SubResource("AnimationNodeStateMachineTransition_j0orr"), "OpenSubMenu", "OpenMainMenu", SubResource("AnimationNodeStateMachineTransition_63dxc")]
 graph_offset = Vector2(-180.277, 49)
 
-[node name="MainMenu" unique_id=534393544 instance=ExtResource("1_rr1rn")]
-script = ExtResource("2_rr1rn")
+[node name="MainMenu" unique_id=589811630 instance=ExtResource("1_rr1rn")]
+script = ExtResource("2_sr523")
 options_packed_scene = ExtResource("3_ixa71")
 credits_packed_scene = ExtResource("4_2k5l7")
 
-[node name="MenuAnimationPlayer" type="AnimationPlayer" parent="." index="1" unique_id=269645399]
+[node name="MenuAnimationPlayer" type="AnimationPlayer" parent="." index="1" unique_id=1492532975]
 libraries/ = SubResource("AnimationLibrary_2kqig")
 
-[node name="MenuAnimationTree" type="AnimationTree" parent="." index="2" unique_id=213771206]
+[node name="MenuAnimationTree" type="AnimationTree" parent="." index="2" unique_id=1630488919]
 tree_root = SubResource("AnimationNodeStateMachine_vikuh")
 anim_player = NodePath("../MenuAnimationPlayer")
 parameters/conditions/intro_done = false
@@ -341,7 +341,7 @@ lock = true
 [node name="VersionContainer" parent="VersionMargin" parent_id_path=PackedInt32Array(1732528471) index="0" unique_id=1603969262]
 modulate = Color(1, 1, 1, 0)
 
-[node name="MouseFilter" type="Control" parent="." index="7" unique_id=342400477]
+[node name="MouseFilter" type="Control" parent="." index="8" unique_id=33285267]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0

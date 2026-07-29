@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://bmvh8ic2bydjp"]
 
 [ext_resource type="Script" uid="uid://c2auur3qote4m" path="res://scenes/menus/options_menu/master_options_menu_with_tabs.gd" id="1_b036r"]
-[ext_resource type="PackedScene" uid="uid://bdmyvhi6p72h0" path="res://scenes/menus/options_menu/input/input_options_menu.tscn" id="2_b036r"]
-[ext_resource type="PackedScene" uid="uid://c2j3k2fbtuxuo" path="res://scenes/menus/options_menu/input/input_extras_menu.tscn" id="3_fqpxk"]
-[ext_resource type="PackedScene" uid="uid://icvd66w5bdth" path="res://scenes/menus/options_menu/audio/audio_options_menu.tscn" id="4_w1dvr"]
-[ext_resource type="PackedScene" uid="uid://ck6wdaa0rrcot" path="res://scenes/menus/options_menu/video/video_options_menu_with_extras.tscn" id="5_bn2s3"]
+[ext_resource type="PackedScene" uid="uid://c56sqbftu22wp" path="res://scenes/menus/options_menu/input/input_options_menu.tscn" id="2_fqpxk"]
+[ext_resource type="PackedScene" uid="uid://cflxfibhsnk73" path="res://scenes/menus/options_menu/input/input_extras_menu.tscn" id="3_w1dvr"]
+[ext_resource type="PackedScene" uid="uid://jjhm12415nt" path="res://scenes/menus/options_menu/audio/audio_options_menu.tscn" id="4_bn2s3"]
+[ext_resource type="PackedScene" uid="uid://87f6ftqr268k" path="res://scenes/menus/options_menu/video/video_options_menu_with_extras.tscn" id="5_6wkjv"]
 
-[node name="MasterOptionsMenu" type="TabContainer" unique_id=909824873]
+[node name="MasterOptionsMenu" type="TabContainer" unique_id=1111795112]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -16,21 +16,21 @@ tab_alignment = 1
 current_tab = 0
 script = ExtResource("1_b036r")
 
-[node name="Controls" parent="." unique_id=208040004 instance=ExtResource("2_b036r")]
+[node name="Controls" parent="." unique_id=1827648101 instance=ExtResource("2_fqpxk")]
 layout_mode = 2
 metadata/_tab_index = 0
 
-[node name="Inputs" parent="." unique_id=2089198629 instance=ExtResource("3_fqpxk")]
+[node name="Inputs" parent="." unique_id=1534818691 instance=ExtResource("3_w1dvr")]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 1
 
-[node name="Audio" parent="." unique_id=1915188431 instance=ExtResource("4_w1dvr")]
+[node name="Audio" parent="." unique_id=506115522 instance=ExtResource("4_bn2s3")]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 2
 
-[node name="Video" parent="." unique_id=1319897604 instance=ExtResource("5_bn2s3")]
+[node name="Video" parent="." unique_id=382045299 instance=ExtResource("5_6wkjv")]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 3
