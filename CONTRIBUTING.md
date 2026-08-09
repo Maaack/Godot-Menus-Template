@@ -1,6 +1,6 @@
-# Contributing to Godot Game Template
+# Contributing to Godot Menus Template
 
-Thanks for wanting to contribute to Maaack's Godot Game Template!
+Thanks for wanting to contribute to Maaack's Godot Menus Template!
 
 Join the [Discord server](https://discord.gg/AyZrJh5AMp) if you'd like to learn more about the project roadmap.
 
@@ -13,8 +13,8 @@ Steps to contributing:
 3. Fix a bug or add a feature.
     1. Please discuss before working on a feature. If it's not planned, it is unlikely to get merged in.
 4. Review, clean up, and reduce changes to a minimum.
-5. Submit a pull request to `Maaack/Godot-Game-Template:main`.
+5. Submit a pull request to `Maaack/Godot-Menus-Template:main`.
 6. Respond to comments and requests from review.
 
 ## Issues
-If any of these instructions are incorrect, unclear, or out-of-date, feel free to ~~submit a pull request to change them~~ open an issue at: https://github.com/Maaack/Godot-Game-Template/issues.
+If any of these instructions are incorrect, unclear, or out-of-date, feel free to ~~submit a pull request to change them~~ open an issue at: https://github.com/Maaack/Godot-Menus-Template/issues.
