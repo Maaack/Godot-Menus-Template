@@ -6,7 +6,7 @@ Maaack's Game Templates are a culmination of a suite of plugins, that can be dow
 
 ## Hierarchy
 
-- Game Template ( [Github](https://github.com/Maaack/Godot-Game-Template)  | [Asset Store](https://store.godotengine.org/asset/maaack/maaacks-game-template/) | [Asset Library](https://godotengine.org/asset-library/asset/2709) )
+- Game Template ( [Github](https://github.com/Maaack/Godot-Game-Template) | [Asset Store](https://store.godotengine.org/asset/maaack/maaacks-game-template/) | [Asset Library](https://godotengine.org/asset-library/asset/2709) )
     - Menus Template ( [Github](https://github.com/Maaack/Godot-Menus-Template) | [Asset Store](https://store.godotengine.org/asset/maaack/maaacks-menus-template/) | [Asset Library](https://godotengine.org/asset-library/asset/2899) )
         - Options Menus ( [Github](https://github.com/Maaack/Godot-Options-Menus) | [Asset Store](https://store.godotengine.org/asset/maaack/maaacks-options-menus/) | [Asset Library](https://godotengine.org/asset-library/asset/3058) )
             - Input Remapping ( [Github](https://github.com/Maaack/Godot-Input-Remapping) | [Asset Store](https://store.godotengine.org/asset/maaack/maaacks-input-remapping/) | [Asset Library](https://godotengine.org/asset-library/asset/4051) )

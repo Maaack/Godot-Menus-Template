@@ -114,7 +114,7 @@ When editing an existing project:
 [Basic Setup](/addons/maaacks_menus_template/docs/BasicSetup.md) is done through the _Setup Wizard_ at `Project > Tools > Run Maaack's Menus Template Setup...`.
 
 As part of setup, example scenes are copied out of `/addons/` into a desired folder (project root by default). These can be edited to fit requirements.
-   
+
 ### More Documentation
 
 [Main Menu Setup](/addons/maaacks_menus_template/docs/MainMenuSetup.md)  
@@ -146,7 +146,7 @@ As part of setup, example scenes are copied out of `/addons/` into a desired fol
 ## Community
 
 Join the [Discord server](https://discord.gg/AyZrJh5AMp) and share your work with others. It's also a space for getting or giving feedback, and asking for help. 
- 
+
 
 ## Links
 [Attribution](/addons/maaacks_menus_template/ATTRIBUTION.md)  
