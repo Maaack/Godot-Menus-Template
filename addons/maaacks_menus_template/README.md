@@ -9,8 +9,7 @@ This template has a main menu, options menus, credits, and a scene loader.
 
 For *Godot 4.7* (4.3+ compatible)
 
-[Example on itch.io](https://maaack.itch.io/godot-game-template)  
-_Example is of [Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template), which includes additional features._
+[Example on itch.io](https://maaack.itch.io/godot-game-template) of *[Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template)*, which includes additional features.
 
 
 ## Objective
