@@ -9,7 +9,7 @@ const EXAMPLES_RELATIVE_PATH = "examples/"
 const MAIN_SCENE_RELATIVE_PATH = "scenes/opening/opening.tscn"
 const OVERRIDE_RELATIVE_PATH = "installer/override.cfg"
 const MAIN_MENU_RELATIVE_PATH = "scenes/menus/main_menu/main_menu.tscn"
-const GAME_SCENE_RELATIVE_PATH = "scenes/game/game.tscn"
+const GAME_SCENE_RELATIVE_PATH = ""
 const ENDING_SCENE_RELATIVE_PATH = "scenes/end_credits/end_credits.tscn"
 const SCENE_LOADER_RELATIVE_PATH = "base/nodes/autoloads/scene_loader/scene_loader.tscn"
 const LOADING_SCREEN_SCENE_RELATIVE_PATH = "scenes/loading_screen/loading_screen.tscn"
@@ -214,7 +214,9 @@ func _set_project_paths(target_path : String, overwrite : bool = true) -> void:
 		if (not overwrite) and ProjectSettings.get_setting(PROJECT_SETTINGS_PATH + key) != null:
 			continue
 		var relative_path = SCENE_PATHS[key]
-		var full_path = target_path + relative_path
+		var full_path = ""
+		if not relative_path.is_empty():
+			full_path = target_path + relative_path
 		ProjectSettings.set_setting(PROJECT_SETTINGS_PATH + key, full_path)
 	
 func _set_default_project_paths() -> void:
