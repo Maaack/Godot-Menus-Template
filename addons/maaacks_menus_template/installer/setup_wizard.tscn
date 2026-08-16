@@ -84,8 +84,8 @@ text = "Update Project Paths *"
 
 [node name="UpdatePathsCheckBox" type="CheckBox" parent="VBoxContainer/StepsContainer" unique_id=818510729]
 unique_name_in_owner = true
-disabled = true
 layout_mode = 2
+disabled = true
 
 [node name="UpdatePathsButton" type="Button" parent="VBoxContainer/StepsContainer" unique_id=601414355]
 unique_name_in_owner = true

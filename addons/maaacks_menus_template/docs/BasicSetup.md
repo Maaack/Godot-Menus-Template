@@ -17,8 +17,8 @@ Open the _Setup Wizard_ by navigating to `Project > Tools > Run Maaack's Menus T
 A typical full installation will have the following steps completed:  
 -  Using Latest Version
 -  Copy Example Files
+-  Update Project Paths
 -  Delete Example Files
--  Update Autoload Paths
 -  Set Main Scene
 
 ![Setup Wizard Window](/addons/maaacks_menus_template/media/setup-wizard-window.png)
