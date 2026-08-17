@@ -224,7 +224,7 @@ func _set_project_paths(target_path : String, overwrite : bool = true) -> void:
 		if not relative_path.is_empty():
 			full_path = target_path + relative_path
 		ProjectSettings.set_setting(PROJECT_SETTINGS_PATH + key, full_path)
-	
+
 func _set_default_project_paths() -> void:
 	_set_project_paths(get_plugin_examples_path(), false)
 
