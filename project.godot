@@ -105,6 +105,7 @@ disable_install_wizard=true
 disable_install_audio_busses=true
 main_menu_scene_path="res://scenes/menus/main_menu/main_menu.tscn"
 ending_scene_path="res://scenes/end_credits/end_credits.tscn"
+game_scene_path=""
 
 [physics]
 
