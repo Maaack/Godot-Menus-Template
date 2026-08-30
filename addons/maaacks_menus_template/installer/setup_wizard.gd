@@ -25,7 +25,7 @@ extends AcceptDialog
 
 func _refresh_plugin_details() -> void:
 	for enabled_plugin in ProjectSettings.get_setting("editor_plugins/enabled"):
-		if enabled_plugin.contains(MaaacksMenusTemplatePlugin.get_settings_path()):
+		if enabled_plugin.contains(MaaacksMenusTemplate.get_settings_path()):
 			var config := ConfigFile.new()
 			var error = config.load(enabled_plugin)
 			if error != OK:
@@ -67,8 +67,9 @@ func _refresh_copy_and_delete_examples() -> void:
 		delete_check_box.button_pressed = true
 
 func _refresh_update_project_paths() -> void:
-	update_paths_check_box.button_pressed = MaaacksMenusTemplatePlugin.instance.are_project_paths_updated()
-	update_paths_button.disabled = false
+	var project_paths_flag := MaaacksMenusTemplatePlugin.instance.are_project_paths_updated()
+	update_paths_check_box.button_pressed = project_paths_flag
+	update_paths_button.disabled = project_paths_flag
 
 func _refresh_main_scene() -> void:
 	if MaaacksMenusTemplatePlugin.instance.is_main_scene_set():
@@ -106,13 +107,8 @@ func _ready():
 	_refresh_options()
 
 func _on_update_button_pressed():
-	if ProjectSettings.get_setting(MaaacksMenusTemplatePlugin.get_settings_path() + "disable_update_check", false):
-		ProjectSettings.set_setting(MaaacksMenusTemplatePlugin.get_settings_path() + "disable_update_check", false)
-		_open_check_plugin_version()
-		return
-	else:
-		tree_exited.connect(func(): PluginUpdater.instance.open_update_plugin(MaaacksMenusTemplatePlugin.instance.get_plugin_path(), MaaacksMenusTemplatePlugin.PLUGIN_REPO_URL))
-		queue_free()
+	tree_exited.connect(func(): PluginUpdater.instance.open_update_plugin(MaaacksMenusTemplatePlugin.instance.get_plugin_path(), MaaacksMenusTemplatePlugin.PLUGIN_REPO_URL))
+	queue_free()
 
 func _on_copy_button_pressed():
 	tree_exited.connect(func(): MaaacksMenusTemplatePlugin.instance.open_copy_and_edit_dialog())
@@ -123,11 +119,9 @@ func _on_delete_button_pressed():
 	queue_free()
 
 func _on_update_paths_button_pressed():
-	MaaacksMenusTemplatePlugin.instance.update_project_paths(MaaacksMenusTemplatePlugin.instance.get_copy_path())
+	MaaacksMenusTemplatePlugin.instance.update_project_paths()
 	_refresh_update_project_paths()
 	update_paths_button.disabled = true
-	await get_tree().create_timer(1.0).timeout
-	update_paths_button.disabled = false
 
 func _on_set_main_scene_button_pressed():
 	tree_exited.connect(func(): MaaacksMenusTemplatePlugin.instance.open_main_scene_confirmation_dialog(MaaacksMenusTemplatePlugin.instance.get_copy_path()))
