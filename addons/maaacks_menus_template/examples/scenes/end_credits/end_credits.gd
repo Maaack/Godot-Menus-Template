@@ -14,7 +14,7 @@ extends "res://addons/maaacks_menus_template/examples/scenes/credits/scrolling_c
 @onready var init_mouse_filter : MouseFilter = mouse_filter
 
 func get_main_menu_scene_path() -> String:
-	return MaaacksMenusTemplatePlugin.get_main_menu_path(main_menu_scene_path)
+	return MaaacksMenusTemplate.get_main_menu_path(main_menu_scene_path)
 
 func _end_reached() -> void:
 	end_message_panel.show()
