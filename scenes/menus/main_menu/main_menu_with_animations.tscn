@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://cj18xby0bu1tk"]
 
-[ext_resource type="PackedScene" uid="uid://c6k5nnpbypshi" path="res://addons/maaacks_menus_template/base/nodes/menus/main_menu/main_menu.tscn" id="1_rr1rn"]
-[ext_resource type="Script" uid="uid://bkek1dxg48njk" path="res://scenes/menus/main_menu/main_menu_with_animations.gd" id="2_sr523"]
-[ext_resource type="PackedScene" uid="uid://isodf20gpedt" path="res://scenes/windows/main_menu_options_window.tscn" id="3_ixa71"]
-[ext_resource type="PackedScene" uid="uid://bl78i66px14kc" path="res://scenes/windows/main_menu_credits_window.tscn" id="4_2k5l7"]
+[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/nodes/menus/main_menu/main_menu.tscn" id="1_rr1rn"]
+[ext_resource type="Script" path="res://scenes/menus/main_menu/main_menu_with_animations.gd" id="2_sr523"]
+[ext_resource type="PackedScene" path="res://scenes/windows/main_menu_options_window.tscn" id="3_ixa71"]
+[ext_resource type="PackedScene" path="res://scenes/windows/main_menu_credits_window.tscn" id="4_2k5l7"]
 
 [sub_resource type="Animation" id="1"]
 resource_name = "Intro"
@@ -158,18 +158,6 @@ tracks/5/keys = {
 "update": 0,
 "values": [Color(1, 1, 1, 1)]
 }
-tracks/6/type = "value"
-tracks/6/imported = false
-tracks/6/enabled = true
-tracks/6/path = NodePath("MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer:lock")
-tracks/6/interp = 1
-tracks/6/loop_wrap = true
-tracks/6/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [false]
-}
 
 [sub_resource type="Animation" id="4"]
 resource_name = "OpenSubMenu"
@@ -260,18 +248,6 @@ tracks/5/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 0,
 "values": [Color(1, 1, 1, 0)]
-}
-tracks/6/type = "value"
-tracks/6/imported = false
-tracks/6/enabled = true
-tracks/6/path = NodePath("MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer:lock")
-tracks/6/interp = 1
-tracks/6/loop_wrap = true
-tracks/6/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_2kqig"]

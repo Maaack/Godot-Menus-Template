@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://vsqem1xqyniv"]
 
-[ext_resource type="PackedScene" uid="uid://b36xwvwdebf1n" path="res://scenes/credits/scrolling_credits.tscn" id="1_0sycx"]
-[ext_resource type="Script" uid="uid://w7d0mc1f8puf" path="res://scenes/end_credits/end_credits.gd" id="2_2v40y"]
-[ext_resource type="PackedScene" uid="uid://bkcsjsk2ciff" path="res://addons/maaacks_menus_template/base/nodes/music_players/background_music_player.tscn" id="3_bfvdl"]
-[ext_resource type="Script" uid="uid://1nf36h0gms3q" path="res://addons/maaacks_menus_template/base/nodes/utilities/capture_focus.gd" id="4_1kqi1"]
+[ext_resource type="PackedScene" path="res://scenes/credits/scrolling_credits.tscn" id="1_0sycx"]
+[ext_resource type="Script" path="res://scenes/end_credits/end_credits.gd" id="2_2v40y"]
+[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/nodes/music_players/background_music_player.tscn" id="3_bfvdl"]
+[ext_resource type="Script" path="res://addons/maaacks_menus_template/base/nodes/utilities/capture_focus.gd" id="4_1kqi1"]
 
 [node name="EndCredits" unique_id=613298766 instance=ExtResource("1_0sycx")]
 script = ExtResource("2_2v40y")

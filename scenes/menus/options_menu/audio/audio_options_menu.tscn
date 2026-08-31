@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://jjhm12415nt"]
 
-[ext_resource type="PackedScene" uid="uid://c8vnncjwqcpab" path="res://addons/maaacks_menus_template/base/nodes/menus/options_menu/audio/audio_options_menu.tscn" id="1_33wdu"]
-[ext_resource type="PackedScene" uid="uid://dft8ief52j0w" path="res://scenes/menus/options_menu/audio/audio_input_option_control.tscn" id="2_vnecy"]
+[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/nodes/menus/options_menu/audio/audio_options_menu.tscn" id="1_33wdu"]
+[ext_resource type="PackedScene" path="res://scenes/menus/options_menu/audio/audio_input_option_control.tscn" id="2_vnecy"]
 
 [node name="Audio" unique_id=651805888 instance=ExtResource("1_33wdu")]
 

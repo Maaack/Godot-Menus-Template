@@ -7,7 +7,7 @@
 
 This template has a main menu, options menus, credits, and a scene loader.
 
-For *Godot 4.7* (4.3+ compatible)
+For *Godot 4.7* (4.4+ compatible)
 
 [Example on itch.io](https://maaack.itch.io/godot-game-template) of *[Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template)*, which includes additional features.
 
@@ -44,7 +44,9 @@ While editing a project in *Godot*:
 2.  Search for "Maaack's Menus Template Addon".
 3.  Click on the result to open the plugin details.
 4.  Click to **Download**.
-5.  Check that contents are getting installed to `addons/` and there are no conflicts.
+5.  Check that contents are getting installed to `addons/` and if there are any conflicts.  
+Conflicts that are safe to ignore:
+    1. `addons/plugin_updater/`
 6.  Click to **Install**.
 7.  Reload the project (you may see errors before you do this).
 8.  Enable the plugin from the **Project > Project Settings > Plugins** tab.  
