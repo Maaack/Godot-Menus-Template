@@ -11,7 +11,6 @@ For *Godot 4.7* (4.4+ compatible)
 
 [Example on itch.io](https://maaack.itch.io/godot-game-template) of *[Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template)*, which includes additional features.
 
-
 ## Objective
 
 Setup menus and accessibility features in about 15 minutes.
