@@ -58,8 +58,8 @@ These instructions assume starting with the entire contents of the project folde
 
     1.  [Setting up the Main Menu.](/addons/maaacks_menus_template/docs/MainMenuSetup.md)  
     2.  [Setting up a Game Scene.](/addons/maaacks_menus_template/docs/GameSceneSetup.md)  
-    3.  [Loading scenes asynchronously.](/addons/maaacks_menus_template/docs/LoadingScenes.md)  
+    3.  [Loading scenes asynchronously.](/addons/maaacks_scene_loader/docs/LoadingScenes.md)  
     4.  [Adding icons to the Input Options.](/addons/maaacks_menus_template/docs/InputIconMapping.md)  
-    5.  [Blending Music.](/addons/maaacks_menus_template/docs/BlendingMusic.md)  
-    6.  [Adding UI Sound Effects.](/addons/maaacks_menus_template/docs/AddingUISFX.md)  
+    5.  [Blending Music.](/addons/maaacks_music_controller/docs/BlendingMusic.md)  
+    6.  [Adding UI Sound Effects.](/addons/maaacks_ui_sound_controller/docs/AddingUISFX.md)  
     7.  [Adding Custom Options.](/addons/maaacks_menus_template/docs/AddingCustomOptions.md)

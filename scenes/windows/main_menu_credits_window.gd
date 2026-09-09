@@ -1,5 +1,5 @@
 @tool
-extends "res://addons/maaacks_menus_template/base/nodes/windows/popup_window_scene_container.gd"
+extends PopupWindowSceneContainer
 
 func _ready() -> void:
 	super._ready()

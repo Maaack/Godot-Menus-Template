@@ -58,12 +58,12 @@ To change the _Opening_:
 2.  [Options Menu Setup](/addons/maaacks_menus_template/docs/OptionsMenuSetup.md)  
 3.  [Game Scene Setup](/addons/maaacks_menus_template/docs/GameSceneSetup.md)  
 4.  [Updating Credits](/addons/maaacks_menus_template/docs/UpdatingCredits.md)  
-5.  [Blending Music](/addons/maaacks_menus_template/docs/BlendingMusic.md)  
-6.  [Adding UI Sound Effects](/addons/maaacks_menus_template/docs/AddingUISFX.md)  
+5.  [Blending Music](/addons/maaacks_music_controller/docs/BlendingMusic.md)  
+6.  [Adding UI Sound Effects](/addons/maaacks_ui_sound_controller/docs/AddingUISFX.md)  
 
 ### Extra
 1.  [Adding Icons to the Input Options](/addons/maaacks_menus_template/docs/InputIconMapping.md)  
 2.  [Supporting Joypad Inputs](/addons/maaacks_menus_template/docs/JoypadInputs.md)  
-3.  [Loading scenes asynchronously](/addons/maaacks_menus_template/docs/LoadingScenes.md)  
+3.  [Loading scenes asynchronously](/addons/maaacks_scene_loader/docs/LoadingScenes.md)  
 4.  [Utilizing Game Saving](/addons/maaacks_menus_template/docs/GameSaving.md)  
 5.  [Uploading to itch.io](/addons/maaacks_menus_template/docs/UploadingToItchIo.md)  

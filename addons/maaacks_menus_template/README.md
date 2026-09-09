@@ -5,12 +5,11 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/Maaack/Godot-Menus-Template)
 [![Discord members](https://img.shields.io/discord/772191827570720798.svg?label=&logo=discord&logoColor=ffffff)](https://discord.gg/AyZrJh5AMp)  
 
-This template has a main menu, options menus, credits, and a scene loader.
+This template has a main menu, options menus, pause menu, credits, and scene loader.  
 
 For *Godot 4.7* (4.4+ compatible)
 
 [Example on itch.io](https://maaack.itch.io/godot-game-template) of *[Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template)*, which includes additional features.
-
 
 ## Objective
 
@@ -46,12 +45,22 @@ While editing a project in *Godot*:
 4.  Click to **Download**.
 5.  Check that contents are getting installed to `addons/` and if there are any conflicts.  
 Conflicts that are safe to ignore:
-    1. `addons/plugin_updater/`
+    -  `addons/plugin_updater/`
+    -  `addons/clean_copy_examples/`
+    -  `addons/maaacks_scene_loader/`
+    -  `addons/maaacks_music_controller/`
+    -  `addons/maaacks_ui_sound_controller/`
 6.  Click to **Install**.
 7.  Reload the project (you may see errors before you do this).
-8.  Enable the plugin from the **Project > Project Settings > Plugins** tab.  
-    1.  If it's enabled for the first time, the setup wizard will start.  
-    2.  Close the window behind it and complete the setup wizard.  
+8.  Enable the plugin(s) from the **Project > Project Settings > Plugins** tab.  
+    1.  Optionally, enable the following:
+        -  *Plugin Updater*
+        -  *Maaack's Scene Loader*
+        -  *Maaack's Music Controller*
+        -  *Maaack's UI Sound Controller*
+    2.  Enable *Maaack's Menus Template*.
+    3.  If it's enabled for the first time, the setup wizard will start.  
+        Close the window behind it and complete the setup wizard.  
 9.  Continue with the [Basic Setup](/addons/maaacks_menus_template/docs/BasicSetup.md).
 
 ## Usage
@@ -67,9 +76,9 @@ As part of setup, example scenes are copied out of `/addons/` into a desired fol
 [Options Menu Setup](/addons/maaacks_menus_template/docs/OptionsMenuSetup.md)  
 [Game Scene Setup](/addons/maaacks_menus_template/docs/GameSceneSetup.md)  
 [Updating Credits](/addons/maaacks_menus_template/docs/UpdatingCredits.md)  
-[Blending Music](/addons/maaacks_menus_template/docs/BlendingMusic.md)  
-[Adding UI Sound Effects](/addons/maaacks_menus_template/docs/AddingUISFX.md)  
-[Loading Scenes](/addons/maaacks_menus_template/docs/LoadingScenes.md)  
+[Blending Music](/addons/maaacks_music_controller/docs/BlendingMusic.md)  
+[Adding UI Sound Effects](/addons/maaacks_ui_sound_controller/docs/AddingUISFX.md)  
+[Loading Scenes](/addons/maaacks_scene_loader/docs/LoadingScenes.md)  
 [Input Icon Mapping](/addons/maaacks_menus_template/docs/InputIconMapping.md)  
 [Joypad Inputs](/addons/maaacks_menus_template/docs/JoypadInputs.md)  
 [How Parts Work](/addons/maaacks_menus_template/docs/HowPartsWork.md)  
