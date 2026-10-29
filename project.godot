@@ -19,7 +19,7 @@ config/icon="res://icon.png"
 
 SceneLoader="*res://addons/maaacks_scene_loader/base/nodes/autoloads/scene_loader/scene_loader.tscn"
 MusicController="*res://addons/maaacks_music_controller/base/scenes/autoloads/music_controller.tscn"
-ProjectUISoundController="*res://addons/maaacks_ui_sound_controller/base/scenes/autoloads/project_ui_sound_controller.tscn"
+UISoundController="*res://addons/maaacks_ui_sound_controller/base/scenes/autoloads/ui_sound_controller.tscn"
 
 [clean_copy_examples]
 
