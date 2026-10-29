@@ -18,8 +18,8 @@ config/icon="res://icon.png"
 [autoload]
 
 SceneLoader="*res://addons/maaacks_scene_loader/base/nodes/autoloads/scene_loader/scene_loader.tscn"
-ProjectMusicController="*res://addons/maaacks_music_controller/base/scenes/autoloads/project_music_controller.tscn"
-ProjectUISoundController="*res://addons/maaacks_ui_sound_controller/base/scenes/autoloads/project_ui_sound_controller.tscn"
+MusicController="*res://addons/maaacks_music_controller/base/scenes/autoloads/music_controller.tscn"
+UISoundController="*res://addons/maaacks_ui_sound_controller/base/scenes/autoloads/ui_sound_controller.tscn"
 
 [clean_copy_examples]
 
@@ -119,7 +119,7 @@ disable_install_audio_busses=true
 
 [maaacks_scene_loader]
 
-loading_scene_path="res://addons/maaacks_scene_loader/examples/scenes/loading_screens/loading_screen.tscn"
+loading_scene_path="res://scenes/loading_screens/loading_screen.tscn"
 
 [maaacks_ui_sound_controller]
 
