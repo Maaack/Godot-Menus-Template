@@ -9,7 +9,7 @@ The `PauseMenuController` node can be added to the tree, or the `pause_menu_cont
 
 This should be enough to capture when the `ui-cancel` input action is pressed in-game. On keyboards, this is commonly the `Esc` key.
 
-![Escape key aasigned to ui_cancel](/addons/maaacks_menus_template/media/documentation/ui_cancel-action-inputs.png)
+![Escape key aasigned to ui_cancel](/media/documentation/ui_cancel-action-inputs.png)
 
 ## Background Music
 `BackgroundMusicPlayer`'s are `AudioStreamPlayer`'s with `autoplay` set to `true` and `audio_bus` set to "Music". These will automatically be recognized by the `ProjectMusicController` with the default settings, and allow for blending between tracks.

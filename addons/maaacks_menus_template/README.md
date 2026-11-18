@@ -1,4 +1,4 @@
-![Package Icon](/addons/maaacks_menus_template/media/menus-icon-black-transparent-256x256.png)  
+![Package Icon](/media/menus-icon-black-transparent-256x256.png)  
 
 # Godot Menus Template
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Maaack/Godot-Menus-Template)
@@ -35,7 +35,7 @@ This template was originally made for Godot Wild Jam, and shares a no AI/LLM-gen
 
 **Key: :green_circle: Included, :large_blue_diamond: Simplified, :purple_square: Available Separately, :x: Not Available**  
 
-More options are available from the [plugin suite](/addons/maaacks_menus_template/docs/PluginSuite.md).  
+More options are available from the [plugin suite](/docs/PluginSuite.md).  
 
 ## Installation
 
@@ -50,7 +50,7 @@ While in the *Godot Project Manager*:
 4.  Click to **Download**.
 5.  Give the project a new name and destination.
 6.  Click to **Install & Edit**.
-7.  Continue with the [Basic Setup](/addons/maaacks_menus_template/docs/BasicSetup.md).
+7.  Continue with the [Basic Setup](/docs/BasicSetup.md).
 
 ### Existing Project
 While editing a project in *Godot*:
@@ -77,52 +77,52 @@ Conflicts that are safe to ignore:
     2.  Enable *Maaack's Menus Template*.
     3.  If it's enabled for the first time, the setup wizard will start.  
         Close the window behind it and complete the setup wizard.  
-9.  Continue with the [Basic Setup](/addons/maaacks_menus_template/docs/BasicSetup.md).
+9.  Continue with the [Basic Setup](/docs/BasicSetup.md).
 
 ## Usage
 
-[Basic Setup](/addons/maaacks_menus_template/docs/BasicSetup.md) is done through the setup wizard at **Project > Tools > Run Maaack's Menus Template Setup...**.  
+[Basic Setup](/docs/BasicSetup.md) is done through the setup wizard at **Project > Tools > Run Maaack's Menus Template Setup...**.  
 
 As part of setup, example scenes are copied out of `/addons/` into a desired folder (project root by default). These can be edited to fit requirements.
 
 ### More Documentation
 
-[Feature List](/addons/maaacks_menus_template/docs/FeatureList.md)  
-[Main Menu Setup](/addons/maaacks_menus_template/docs/MainMenuSetup.md)  
-[Options Menu Setup](/addons/maaacks_menus_template/docs/OptionsMenuSetup.md)  
-[Game Scene Setup](/addons/maaacks_menus_template/docs/GameSceneSetup.md)  
-[Updating Credits](/addons/maaacks_menus_template/docs/UpdatingCredits.md)  
+[Feature List](/docs/FeatureList.md)  
+[Main Menu Setup](/docs/MainMenuSetup.md)  
+[Options Menu Setup](/docs/OptionsMenuSetup.md)  
+[Game Scene Setup](/docs/GameSceneSetup.md)  
+[Updating Credits](/docs/UpdatingCredits.md)  
 [Blending Music](/addons/maaacks_music_controller/docs/BlendingMusic.md)  
 [Adding UI Sound Effects](/addons/maaacks_ui_sound_controller/docs/AddingUISFX.md)  
 [Loading Scenes](/addons/maaacks_scene_loader/docs/LoadingScenes.md)  
-[Input Icon Mapping](/addons/maaacks_menus_template/docs/InputIconMapping.md)  
-[Joypad Inputs](/addons/maaacks_menus_template/docs/JoypadInputs.md)  
-[How Parts Work](/addons/maaacks_menus_template/docs/HowPartsWork.md)  
-[Moving Files](/addons/maaacks_menus_template/docs/MovingFiles.md)  
-[Automatic Updating](/addons/maaacks_menus_template/docs/AutomaticUpdating.md)  
+[Input Icon Mapping](/docs/InputIconMapping.md)  
+[Joypad Inputs](/docs/JoypadInputs.md)  
+[How Parts Work](/docs/HowPartsWork.md)  
+[Moving Files](/docs/MovingFiles.md)  
+[Automatic Updating](/docs/AutomaticUpdating.md)  
 
 ## Media
 
 ### Videos
 
 [![Quick Intro Video](https://img.youtube.com/vi/U9CB3vKINVw/hqdefault.jpg)](https://youtu.be/U9CB3vKINVw)  
-[More Videos](/addons/maaacks_menus_template/docs/Videos.md)
+[More Videos](/docs/Videos.md)
 
 ### Screenshots
 
-![Main Menu](/addons/maaacks_menus_template/media/screenshot-6-main-menu-5.png)  
-![Key Rebinding](/addons/maaacks_menus_template/media/screenshot-6-input-list-8.png)  
-![Audio Controls](/addons/maaacks_menus_template/media/screenshot-6-audio-options-2.png)  
-[More Screenshots](/addons/maaacks_menus_template/docs/Screenshots.md)  
+![Main Menu](/media/screenshot-6-main-menu-5.png)  
+![Key Rebinding](/media/screenshot-6-input-list-8.png)  
+![Audio Controls](/media/screenshot-6-audio-options-2.png)  
+[More Screenshots](/docs/Screenshots.md)  
 
 ## Featured Games
 
 | Crumbling Castle | Dungeon Bodega Simulator | Lucky Break |  
 | :-------:| :-------: | :-------: |
-| ![Crumbling Castle](/addons/maaacks_menus_template/media/thumbnail-game-crumbling-castle.png) | ![Dungeon Bodega Simulator](/addons/maaacks_menus_template/media/thumbnail-game-dungeon-bodega-simulator.png) | ![Lucky Break](/addons/maaacks_menus_template/media/thumbnail-game-lucky-break.png) |
+| ![Crumbling Castle](/media/thumbnail-game-crumbling-castle.png) | ![Dungeon Bodega Simulator](/media/thumbnail-game-dungeon-bodega-simulator.png) | ![Lucky Break](/media/thumbnail-game-lucky-break.png) |
 | [Play on itch.io](https://maaack.itch.io/crumbling-castle) |  [Find on Steam](https://store.steampowered.com/app/3458180/Dungeon_Bodega_Simulator/)  | [Play on Steam](https://store.steampowered.com/app/4155880/Lucky_Break/)  |
 
-[All Shared Games](/addons/maaacks_menus_template/docs/GamesMade.md)  
+[All Shared Games](/docs/GamesMade.md)  
 
 
 ## Community
