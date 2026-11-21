@@ -31,4 +31,4 @@ The `examples/` folder contains an example project using inherited scenes from t
 
 ## Extras or Components
 
-Users that want additional features can try *[Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template)* or other options from the [plugin suite](/addons/maaacks_menus_template/docs/PluginSuite.md).  
+Users that want additional features can try *[Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template)* or other options from the [plugin suite](/docs/PluginSuite.md).  
