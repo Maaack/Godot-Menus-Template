@@ -21,6 +21,8 @@ This template was originally made for Godot Wild Jam, and shares a no AI/LLM-gen
 
 ## Choosing A Plugin
 
+The *Game Template* is the original fully featured template. The *Minimal Game Template* is intended for devs new to Godot who may find the *Game Template* overwhelming. The *Menus Template* is for devs experienced with Godot who already have a game scene, only want menus, and can follow documentation for integrating them together.
+
 | Features | Game Template  ([link](https://github.com/Maaack/Godot-Game-Template)) | Minimal Game Template  ([link](https://github.com/Maaack/Godot-Minimal-Game-Template)) | Menus Template ([link](https://github.com/Maaack/Godot-Menus-Template)) |
 | :-------:  | :-------: | :-------: | :-------: |
 | Main Menu | :green_circle: | :green_circle: | :green_circle: |
