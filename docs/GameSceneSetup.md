@@ -4,6 +4,13 @@ Here is a basic guide for setting up a game scene for advanced users.
 
 The [Minimal Game Template](https://github.com/Maaack/Godot-Minimal-Game-Template) is recommended for first time users, as it includes an example game scene, with level progression.  
 
+## Selecting a Game Scene
+The path to the game scene is set in the **Project Settings**. Open the **Project > Project Settings > General** tab, navigate to *Maaacks Menus Template* settings, and edit the `Game Scene Path` to the desired scene.
+
+Alternatively, the path to the game scene can be set directly in the following scenes:
+
+- `main_menu.tscn` or `main_menu_with_animations.tscn`  
+
 ## Pausing
 The `PauseMenuController` node can be added to the tree, or the `pause_menu_controller.gd` script may be attached to an empty `Node`. Selecting the node should then allow for setting the `pause_menu_packed` value in the inspector. Set it to the `pause_menu_layer.tscn` (or `pause_menu.tscn`) scene and save.
 
