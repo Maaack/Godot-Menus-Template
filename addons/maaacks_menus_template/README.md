@@ -24,14 +24,14 @@ This template was originally made for Godot Wild Jam, and shares a no AI/LLM-gen
 | Features | Game Template  ([link](https://github.com/Maaack/Godot-Game-Template)) | Minimal Game Template  ([link](https://github.com/Maaack/Godot-Minimal-Game-Template)) | Menus Template ([link](https://github.com/Maaack/Godot-Menus-Template)) |
 | :-------:  | :-------: | :-------: | :-------: |
 | Main Menu | :green_circle: | :green_circle: | :green_circle: |
-| Options Menus | :green_circle: | :green_circle: | :green_circle: |
-| Credits Scene | :green_circle: | :large_blue_diamond: | :green_circle: |
+| [Options Menus](https://github.com/Maaack/Godot-Options-Menus) | :green_circle: | :green_circle: | :green_circle: |
+| [Credits Scene](https://github.com/Maaack/Godot-Credits-Scene) | :green_circle: | :large_blue_diamond: | :green_circle: |
 | Game Scene | :green_circle: | :large_blue_diamond: | :x: |
 | Level Manager | :green_circle: | :green_circle: | :x: |
 | Game & Level State | :green_circle: | :x: | :x: |
-| Scene Loader | :green_circle: | :purple_square: | :green_circle: |
-| Music Controller | :green_circle: | :purple_square: | :green_circle: |
-| UI Sound Controller | :green_circle: | :purple_square: | :green_circle: |
+| [Scene Loader](https://github.com/Maaack/Godot-Scene-Loader) | :green_circle: | :purple_square: | :purple_square: |
+| [Music Controller](https://github.com/Maaack/Godot-Music-Controller) | :green_circle: | :purple_square: | :purple_square: |
+| [UI Sound Controller](https://github.com/Maaack/Godot-UI-Sound-Controller) | :green_circle: | :purple_square: | :purple_square: |
 
 **Key: :green_circle: Included, :large_blue_diamond: Simplified, :purple_square: Available Separately, :x: Not Available**  
 
@@ -92,9 +92,6 @@ As part of setup, example scenes are copied out of `/addons/` into a desired fol
 [Options Menu Setup](/docs/OptionsMenuSetup.md)  
 [Game Scene Setup](/docs/GameSceneSetup.md)  
 [Updating Credits](/docs/UpdatingCredits.md)  
-[Blending Music](/addons/maaacks_music_controller/docs/BlendingMusic.md)  
-[Adding UI Sound Effects](/addons/maaacks_ui_sound_controller/docs/AddingUISFX.md)  
-[Loading Scenes](/addons/maaacks_scene_loader/docs/LoadingScenes.md)  
 [Input Remapping Menus](/docs/InputRemappingMenus.md)  
 [Input Icon Mapping](/docs/InputIconMapping.md)  
 [Joypad Inputs](/docs/JoypadInputs.md)  

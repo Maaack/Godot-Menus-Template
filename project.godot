@@ -15,15 +15,9 @@ run/main_scene="res://scenes/opening/opening.tscn"
 config/features=PackedStringArray("4.7")
 config/icon="res://icon.png"
 
-[autoload]
-
-SceneLoader="*res://addons/maaacks_scene_loader/base/nodes/autoloads/scene_loader/scene_loader.tscn"
-MusicController="*res://addons/maaacks_music_controller/base/scenes/autoloads/music_controller.tscn"
-UISoundController="*res://addons/maaacks_ui_sound_controller/base/scenes/autoloads/ui_sound_controller.tscn"
-
 [clean_copy_examples]
 
-examples_paths=Array[String](["res://addons/maaacks_menus_template/examples/", "res://addons/maaacks_scene_loader/examples/"])
+examples_paths=Array[String](["res://addons/maaacks_menus_template/examples/"])
 copy_path="res://"
 
 [display]
@@ -33,7 +27,7 @@ window/size/viewport_height=720
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/maaacks_menus_template/plugin.cfg", "res://addons/maaacks_music_controller/plugin.cfg", "res://addons/maaacks_scene_loader/plugin.cfg", "res://addons/maaacks_ui_sound_controller/plugin.cfg", "res://addons/plugin_updater/plugin.cfg")
+enabled=PackedStringArray("res://addons/maaacks_menus_template/plugin.cfg", "res://addons/plugin_updater/plugin.cfg")
 
 [gui]
 
@@ -133,8 +127,5 @@ common/enable_pause_aware_picking=true
 
 plugins={
 "res://addons/maaacks_menus_template/": "https://github.com/Maaack/Godot-Menus-Template",
-"res://addons/maaacks_music_controller/": "https://github.com/Maaack/Godot-Music-Controller",
-"res://addons/maaacks_scene_loader/": "https://github.com/Maaack/Godot-Scene-Loader",
-"res://addons/maaacks_ui_sound_controller/": "https://github.com/Maaack/Godot-UI-Sound-Controller",
 "res://addons/plugin_updater/": "https://github.com/Maaack/Godot-Plugin-Updater"
 }
