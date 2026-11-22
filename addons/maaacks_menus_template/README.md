@@ -34,6 +34,7 @@ The *Game Template* is the original fully featured template. The *Minimal Game T
 | [Scene Loader](https://github.com/Maaack/Godot-Scene-Loader) | :green_circle: | :purple_square: | :purple_square: |
 | [Music Controller](https://github.com/Maaack/Godot-Music-Controller) | :green_circle: | :purple_square: | :purple_square: |
 | [UI Sound Controller](https://github.com/Maaack/Godot-UI-Sound-Controller) | :green_circle: | :purple_square: | :purple_square: |
+| [Plugin Updater](https://github.com/Maaack/Godot-Plugin-Updater) | :green_circle: | :green_circle: | :green_circle: |
 
 **Key: :green_circle: Included, :large_blue_diamond: Simplified, :purple_square: Available Separately, :x: Not Available**  
 
