@@ -19,7 +19,7 @@ The template can be the start of a new project, or plug into an existing one. It
 
 This template was originally made for Godot Wild Jam, and shares a no AI/LLM-gen policy. Please open an [issue](https://github.com/Maaack/Godot-Menus-Template/issues) if there is a violation.  
 
-## Choosing A Plugin
+## Choosing A Template
 
 The *Game Template* is the original fully featured template. The *Minimal Game Template* is intended for devs new to Godot who may find the *Game Template* overwhelming. The *Menus Template* is for devs experienced with Godot who already have a game scene, only want menus, and can follow documentation for integrating them together.
 
