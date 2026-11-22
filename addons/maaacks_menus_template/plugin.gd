@@ -168,7 +168,7 @@ func are_project_paths_updated() -> bool:
 	var examples_path := get_plugin_examples_path()
 	if copy_path == examples_path:
 		return false
-	return MaaacksMenusTemplate.are_project_paths_updated(examples_path)
+	return MaaacksMenusTemplate.are_project_paths_updated()
 
 func _on_completed_copy_to_directory(target_path : String) -> void:
 	MaaacksMenusTemplate.set_copy_path(target_path)
